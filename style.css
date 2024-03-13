@@ -559,7 +559,7 @@
  .left_side_img {
      max-width: 300px;
      min-height: 518px;
-     border: 1px solid red;
+      
      margin-top: 60px;
 
  }
@@ -647,6 +647,8 @@
  .meating_btn .shedul a:hover {
      color: var(--bg_9-color);
  }
+
+
 
 
 
