@@ -391,7 +391,7 @@ transition: .50s all ease;
 
 
 .law_content {
-    min-width: 1170px;
+     
     min-height: 570px;
     border: 1px solid red;
     display: flex;
