@@ -32,6 +32,8 @@
      --bg_10-color: #000;
      --bg_11-color: #D6D6D6;
      --bg_13-color:#AAAAAA;
+     --bg_15-color:#333A4D;
+     --bg_16-color:#292F40;
 
      /* BORDER color  */
      --border-color:#E7E7E7;
@@ -385,7 +387,7 @@ transition: .50s all ease;
 .section-03 {
     background-color: var(--bg_9-color);
     min-height: 820px;
-    padding-top: 53px;
+ 
 
 }
 
@@ -393,60 +395,71 @@ transition: .50s all ease;
 .law_content {
      
     min-height: 570px;
-    border: 1px solid red;
+ 
     display: flex;
     gap: 59px;
 }
 
 .law_image {
     max-width: 400px;
-    min-height: 662px;
-   
-    position: relative;
+    min-height: 620px;
+  
+   position: relative;
+    
 }
-
-.law_image .bg .text {
-    z-index: 2;
-    position: absolute;
-    right: -10px;
-    bottom: 84px;
+.text {
+    min-width: 240px;
+    min-height: 150px;
+    background-color: var(--bg_15-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
-}
-.law_image .bg .text  .span_01 h1 {
-font-size: 50px;
-line-height:  1.48em;
-font-family: "DM Sans", sans-serif;
-font-weight: 600;
-color: var(--bg_7-color);
-}
-
-.law_image .bg .text  .span_01  p{
-    font-size: 14px;
-    line-height:   1.2857142857142858em;
-    letter-spacing: 0.3em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 600;
-    color: var(--text_1-color);
-}
-
-.law_image .bg .text span h6 {
-font-size: 16px;
-line-height: 1.436875em;
-font-family: "DM Sans", sans-serif;
-font-weight: 400;
-color: var(--text_1-color);
-
-}
-
-.law_image .bg img {
-    z-index: 1;
-    right: -29px;
+    gap: 20px;
+    border: 2px solid var(--bg_7-color);
     position: absolute;
-    bottom: 43px;
+    bottom: 9px;
+    right: -37px;
 }
+.text span h1 {
+    font-size: 50px;
+    line-height:  1.3em;
+    font-family: "DM Sans", sans-serif; 
+    font-weight: 600;
+    color: var(--bg_7-color);
+
+}
+.text span h6 {
+    font-size: 16px;
+    line-height: 1.2857142857142858em;
+    font-family: "DM Sans", sans-serif; 
+    font-weight: 500;
+    color: var(--text_1-color);
+
+}
+
+
+.text p {
+    font-size: 16px;
+    line-height:  1.433125em;
+    font-family: "DM Sans", sans-serif; 
+    font-weight: 500;
+    color: var(--text_1-color);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* <...........> */
 
@@ -530,6 +543,97 @@ color: var(--text_5-color);
     color:  var( --bg_10-color);
 }
 
+
+
+/* <..............> */
+
+
+.left_side_img{
+    max-width: 300px;
+    min-height: 518px;
+    border: 1px solid red;
+    margin-top: 60px;
+   
+    }
+.calender {
+    padding-bottom: 30px;
+}
+
+
+    
+.Meeting {
+     max-width: 300px;
+     min-height: 188px;
+background-color: var(--bg_16-color);
+    
+     padding-left: 14px;
+}
+.Meeting span {
+    padding-top: 21px;
+    display: flex;
+     gap: 25px;
+}
+
+
+.Meeting span h6 {
+    font-size: 16px;
+    line-height: 1.3125em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: var(--text_1-color);
+
+
+}
+.Meeting span p {
+    font-size: 12px;
+    line-height: 1.3333333333333333em;
+    color: var(--text_6-color);
+    padding-bottom: 15px;
+}
+
+
+  a{
+    color: var(--text_1-color);
+    font-size: 14px;
+    line-height: 1.8em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+ 
+    
+}
+ .meating_btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 23px;
+    
+ }
+
+ .meating_btn   a {
+    font-size: 13px;
+line-height: 1.3076923076923077em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    padding: 6px 19px;
+    background-color: var(--bg_7-color);
+    transition: all .50s ease;
+ }
+
+ .meating_btn .shedul  a{
+    padding: 6px 19px;
+   color: var(--bg_15-color);
+   background-color: var(--bg_9-color);
+ }
+
+
+ .meating_btn   a:hover {
+    background: transparent;
+   
+ }
+ .meating_btn .shedul  a:hover{
+    color: var(--bg_9-color);
+ }
 
 
 
