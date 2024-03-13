@@ -60,7 +60,9 @@
     min-height:110px ; 
  }
 
- 
+ .section-01 .container {
+     padding: 0 0;
+ }
 
 
 
