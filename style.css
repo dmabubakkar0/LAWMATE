@@ -397,9 +397,9 @@
  .law_content {
 
      min-height: 570px;
-
-     display: flex;
-     gap: 59px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 58px;
  }
 
  .law_image {
@@ -557,12 +557,12 @@
 
 
  .left_side_img {
-     max-width: 300px;
-     min-height: 518px;
-      
-     margin-top: 60px;
+    margin-top: 60px;
+    display: contents;
 
- }
+}
+ 
+ 
 
  .calender {
      padding-bottom: 30px;
@@ -571,12 +571,13 @@
 
 
  .Meeting {
-     max-width: 300px;
-     min-height: 188px;
-     background-color: var(--bg_16-color);
-
-     padding-left: 14px;
- }
+    max-width: 300px;
+    min-height: 188px;
+    background-color: var(--bg_16-color);
+    display: flex;
+    padding-left: 14px;
+    flex-direction: column;
+}
 
  .Meeting span {
      padding-top: 21px;
@@ -647,6 +648,21 @@
  .meating_btn .shedul a:hover {
      color: var(--bg_9-color);
  }
+
+ /* SECTION-03 END  */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -758,6 +774,82 @@
          bottom: 23px;
          min-width: 338px;
      }
+
+     /* SECTION-03 Strat  */
+
+     .section-03 {
+
+         padding-top: 99px;
+     }
+
+
+
+
+     .law_content {
+
+         grid-template-columns: repeat(2, 2fr);
+         gap: 57px;
+     }
+
+     .law_image {
+         max-width: 318px px;
+         
+          
+     }
+
+
+
+     .main_img img {
+         width: 250px;
+     }
+
+
+     .text {
+         min-width: 198px;
+         min-height: 118px;
+         bottom: 196px;
+         right: 16px;
+     }
+
+
+     .text span h1 {
+         font-size: 30px;
+
+     }
+
+     .text p {
+         font-size: 14px;
+
+     }
+
+
+
+     .about {
+      
+        
+        margin-top: 0px;
+    }
+
+
+    .about h2 {
+        font-size: 30px;
+        
+    }
+
+
+
+    .p_one {
+       
+        padding-bottom: 18px;
+    }
+
+
+
+     .Meeting {
+       
+        gap: 7px;
+    }
+
 
 
  }
@@ -901,6 +993,76 @@
 
          flex-direction: column;
      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .section-03 */
+
+.law_content {
+    grid-template-columns: repeat(1, 2fr);
+    gap: 17px;
+ 
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.section-02 {
+    background: url(hero/giammarco-boscaro-zeH-ljawHtg-unsplash\ 1.jpg);
+    background-repeat: ;
+    padding-top: 32px;
+    position: relative;
+    top: 0%;
+}
+
+
+
+
+/* .section-03  */
+P {
+    font-size: 21px;
+   
+    
+}
+
+.law_image {
+    max-width: 400px;
+    min-height: 0px;
+    position: relative;
+}
+
+
+.meating_btn {
+   
+    padding-top: 0px;
+}
+.Meeting {
+    gap: 4px;
+}
+
+.text {
+    
+    bottom: -39px;
+    right: 43px;
+}
+
 
 
 
