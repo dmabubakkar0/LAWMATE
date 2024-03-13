@@ -1,12 +1,17 @@
  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
+ @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Damion&display=swap');
+
+
+
  * {
      padding: 0%;
      margin: 0%;
      box-sizing: border-box;
      font-family: "DM Sans", sans-serif;
      font-family: "Crimson Pro", serif;
+     font-family: "Damion", cursive;
  }
 
  :root {
@@ -127,6 +132,8 @@
      padding: 10px 18px;
      background-color: var(--bg_7-color);
      color: var(--text_1-color);
+     font-family: "Crimson Pro", serif;
+     font-weight: 400;
      transition: .50s all ease;
 
  }
@@ -370,6 +377,160 @@ transition: .50s all ease;
 } 
 
   /* .......section-02 End  */
+
+
+/* SECTION-03 STRAT  */
+
+.section-03 {
+    background-color: var(--bg_9-color);
+    min-height: 820px;
+    padding-top: 53px;
+
+}
+
+
+.law_content {
+    min-width: 1170px;
+    min-height: 570px;
+    border: 1px solid red;
+    display: flex;
+    gap: 59px;
+}
+
+.law_image {
+    max-width: 400px;
+    min-height: 662px;
+   
+    position: relative;
+}
+
+.law_image .bg .text {
+    z-index: 2;
+    position: absolute;
+    right: -10px;
+    bottom: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.law_image .bg .text  .span_01 h1 {
+font-size: 50px;
+line-height:  1.48em;
+font-family: "DM Sans", sans-serif;
+font-weight: 600;
+color: var(--bg_7-color);
+}
+
+.law_image .bg .text  .span_01  p{
+    font-size: 14px;
+    line-height:   1.2857142857142858em;
+    letter-spacing: 0.3em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    color: var(--text_1-color);
+}
+
+.law_image .bg .text span h6 {
+font-size: 16px;
+line-height: 1.436875em;
+font-family: "DM Sans", sans-serif;
+font-weight: 400;
+color: var(--text_1-color);
+
+}
+
+.law_image .bg img {
+    z-index: 1;
+    right: -29px;
+    position: absolute;
+    bottom: 43px;
+}
+
+/* <...........> */
+
+.about {
+    max-width: 401px;
+    min-height: 326px;
+ 
+    margin-top: 78px;
+}
+.about h6 {
+    font-size: 14px;
+    line-height: 3.5714285714285716em;
+    letter-spacing: 2.4px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    color: var(--text_3-color);
+}
+
+.about h2{
+    font-size: 60px;
+    line-height:  0.8333333333333334em;
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+   
+    color: var(--text-color);
+
+}
+.p_one {
+    font-size: 16px;
+    line-height:   1.3125em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: var(--bg_13-color);
+  padding-bottom: 35px;
+}
+ 
+
+
+
+P {
+font-size: 16px;
+line-height: 1.3125em;
+font-family: "DM Sans", sans-serif;
+font-weight: 400;
+color: var(--text_5-color);
+ 
+
+}
+
+
+.text_ceo {
+    display: flex;
+    align-items: center;
+    gap: 49px;
+    padding-top: 42px;
+}
+
+
+.text_ceo h4 {
+    font-size: 30px;
+    line-height:  1.6666666666666667em;
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+    color:  var(--text-color);
+
+}
+.text_ceo p {
+    font-size: 16px;
+    line-height:    3.125em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    color:  var( --bg_7-color);
+
+}
+
+.text_ceo h5 {
+    font-size: 30px;
+    line-height:    1.6666666666666667em;
+    font-family: "Damion", cursive;
+    font-weight: 500;
+    color:  var( --bg_10-color);
+}
+
+
+
 
  @media (max-width:1024px) {
 
