@@ -205,6 +205,7 @@
      background-color: var(--bg_7-color);
      display: flex;
      align-items: center;
+      
 transition: .50s all ease;
  }
 
@@ -224,7 +225,34 @@ background-color: transparent;
 
  }
 
+ .number{
+    display: flex;
+    gap: 15px;
+ }
 
+
+.number i {
+    font-size: 28px;
+    color: var(--text_1-color);
+    background: transparent;
+}
+
+.number span p {
+    font-size: 14px;
+    line-height: 1.2857142857142858em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    color: var(--text_1-color);
+}
+
+.number span a {
+    font-size: 20px;
+    line-height:  1.3em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: var(--text_1-color);
+    text-decoration: none;
+}
 
 
 
@@ -341,7 +369,7 @@ transition: .50s all ease;
     color: var(--bg_10-color);
 } 
 
-
+  /* .......section-02 End  */
 
  @media (max-width:1024px) {
 
@@ -387,7 +415,71 @@ transition: .50s all ease;
      }
 
 
+/* SECTION-01 END  */
+
+/* SECTION-02 STRAT  */
+
+.section-02 {
+    background: url(hero/giammarco-boscaro-zeH-ljawHtg-unsplash\ 1.jpg);
+    background-repeat: no-repeat;
+    padding-top: 32px;
+    position: relative;
+    top: 10%;
+}
+
+.hero-heading {
+     
+    padding-right: 14px;
+    padding-top: 13px;
+    
+}
+
+
+
+
+
+
+.hero-heading h1 {
+    font-size: 40px;
+    padding-bottom: 13px;
+ 
+}
+.hero-heading h6 {
+    font-size: 14px;
+    line-height: 1.5em;
+    letter-spacing: 1.6px;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    color: var(--text_1-color);
+    padding-bottom: 34px;
+}
+
+
+.contact {
+     
+    gap: 16px;
+}
+
+
+.PRACTICE {
+    padding: 12px 8px;
+ 
+}
+
+
+
+
+
+
+.booking_meta {
+   
+    bottom: 23px;
+    min-width: 338px;
+}
+
+
  }
+
 
 
 
@@ -515,6 +607,18 @@ transition: .50s all ease;
          transform: scale(0);
          opacity: 0;
      }
+
+
+
+/* SECTION-01 END  */
+
+
+/* SECTION-02 STRAT */
+
+.hero-content {
+   
+    flex-direction: column;
+}
 
 
 
