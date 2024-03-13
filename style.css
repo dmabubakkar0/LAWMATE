@@ -22,8 +22,8 @@
      --text_4-color: #888888;
      --text_5-color: #666666;
      --text_6-color: #CCCCCC;
-     --text_12-color:#333A4D;
-     --text_14-color:#333A4D;
+     --text_12-color: #333A4D;
+     --text_14-color: #333A4D;
 
      --bg_7-color: #CF9455;
      --hover-bg-color: #CF9455;
@@ -31,12 +31,12 @@
      --bg_9-color: #FFF;
      --bg_10-color: #000;
      --bg_11-color: #D6D6D6;
-     --bg_13-color:#AAAAAA;
-     --bg_15-color:#333A4D;
-     --bg_16-color:#292F40;
+     --bg_13-color: #AAAAAA;
+     --bg_15-color: #333A4D;
+     --bg_16-color: #292F40;
 
      /* BORDER color  */
-     --border-color:#E7E7E7;
+     --border-color: #E7E7E7;
  }
 
  .container {
@@ -59,7 +59,7 @@
  .section-01 {
      padding-right: 125px;
      background-color: var(--bg_8-color);
-    min-height:110px ; 
+     min-height: 110px;
  }
 
  .section-01 .container {
@@ -71,8 +71,8 @@
 
  header {
      background-color: var(--bg_8-color);
-    min-width:100% ; 
-    
+     min-width: 100%;
+
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -162,7 +162,7 @@
      background: url(hero/giammarco-boscaro-zeH-ljawHtg-unsplash\ 1.jpg);
      background-repeat: no-repeat;
      padding-top: 106px;
-    
+
  }
 
  .hero-content {
@@ -215,14 +215,14 @@
      background-color: var(--bg_7-color);
      display: flex;
      align-items: center;
-      
-transition: .50s all ease;
+
+     transition: .50s all ease;
  }
 
-.PRACTICE:hover {
-background-color: transparent;
- 
-}
+ .PRACTICE:hover {
+     background-color: transparent;
+
+ }
 
 
  .PRACTICE {
@@ -235,34 +235,34 @@ background-color: transparent;
 
  }
 
- .number{
-    display: flex;
-    gap: 15px;
+ .number {
+     display: flex;
+     gap: 15px;
  }
 
 
-.number i {
-    font-size: 28px;
-    color: var(--text_1-color);
-    background: transparent;
-}
+ .number i {
+     font-size: 28px;
+     color: var(--text_1-color);
+     background: transparent;
+ }
 
-.number span p {
-    font-size: 14px;
-    line-height: 1.2857142857142858em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    color: var(--text_1-color);
-}
+ .number span p {
+     font-size: 14px;
+     line-height: 1.2857142857142858em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 400;
+     color: var(--text_1-color);
+ }
 
-.number span a {
-    font-size: 20px;
-    line-height:  1.3em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    color: var(--text_1-color);
-    text-decoration: none;
-}
+ .number span a {
+     font-size: 20px;
+     line-height: 1.3em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 500;
+     color: var(--text_1-color);
+     text-decoration: none;
+ }
 
 
 
@@ -270,11 +270,11 @@ background-color: transparent;
  .booking_meta {
      min-width: 370px;
      min-height: 494px;
-   background-color: var(--bg_9-color);
-   border: 1px solid var(--bg_11-color);
+     background-color: var(--bg_9-color);
+     border: 1px solid var(--bg_11-color);
      position: relative;
      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    
+
  }
 
  .main {
@@ -283,32 +283,33 @@ background-color: transparent;
      left: 0;
      top: 0;
      bottom: 0;
-    
+
 
 
  }
 
 
-.main h2 {
-    font-size: 22px;
-    line-height: 1.3181818181818181em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    color:var(--text_14-color) ;
-    text-align: center;
-padding-top: 44px;
-padding-bottom: 13px;
+ .main h2 {
+     font-size: 22px;
+     line-height: 1.3181818181818181em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 500;
+     color: var(--text_14-color);
+     text-align: center;
+     padding-top: 44px;
+     padding-bottom: 13px;
 
-}
-.main p {
-    font-size: 14px;
-    line-height: 1.5999999999999999em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    color: var(--text_4-color);
-    text-align: center;
-    padding-bottom: 28px;
-}
+ }
+
+ .main p {
+     font-size: 14px;
+     line-height: 1.5999999999999999em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 400;
+     color: var(--text_4-color);
+     text-align: center;
+     padding-bottom: 28px;
+ }
 
 
 
@@ -317,141 +318,139 @@ padding-bottom: 13px;
      align-items: center;
      flex-direction: column;
      gap: 15px;
-    
+
  }
 
  .card {
 
      width: 310px;
      min-height: 50px;
-     
+
      border: 1px solid var(--border-color);
      display: flex;
      align-items: center;
-     
+
 
 
  }
 
 
-.card a {
-    text-decoration: none;
-    padding-left: 20px;
-    display: flex;
-    gap: 15px;
+ .card a {
+     text-decoration: none;
+     padding-left: 20px;
+     display: flex;
+     gap: 15px;
 
-}
+ }
 
-.card a {
-    font-size: 14px;
-    line-height: 1.2857142857142858em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    color: var(--bg_13-color);
-}
-
-
-
-.meta_buttom {
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-}
-
-
-.meta_buttom a  {
-font-size: 16px;
-line-height: 1.3125em;
-font-family: "DM Sans", sans-serif;
-font-weight: 500;
-color: var(--text_1-color);
-
-text-decoration: none;
-    padding: 16px 91px;
-background: var(--bg_7-color);
-transition: .50s all ease;
- 
-
-}
-.meta_buttom a:hover {
-    background-color: transparent;
-    border: 1px solid var(--text-color);
-    color: var(--bg_10-color);
-} 
-
-  /* .......section-02 End  */
-
-
-/* SECTION-03 STRAT  */
-
-.section-03 {
-    background-color: var(--bg_9-color);
-    min-height: 820px;
- 
-
-}
-
-
-.law_content {
-     
-    min-height: 570px;
- 
-    display: flex;
-    gap: 59px;
-}
-
-.law_image {
-    max-width: 400px;
-    min-height: 620px;
-  
-   position: relative;
-    
-}
-.text {
-    min-width: 240px;
-    min-height: 150px;
-    background-color: var(--bg_15-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    border: 2px solid var(--bg_7-color);
-    position: absolute;
-    bottom: 9px;
-    right: -37px;
-}
-.text span h1 {
-    font-size: 50px;
-    line-height:  1.3em;
-    font-family: "DM Sans", sans-serif; 
-    font-weight: 600;
-    color: var(--bg_7-color);
-
-}
-.text span h6 {
-    font-size: 16px;
-    line-height: 1.2857142857142858em;
-    font-family: "DM Sans", sans-serif; 
-    font-weight: 500;
-    color: var(--text_1-color);
-
-}
-
-
-.text p {
-    font-size: 16px;
-    line-height:  1.433125em;
-    font-family: "DM Sans", sans-serif; 
-    font-weight: 500;
-    color: var(--text_1-color);
-
-}
+ .card a {
+     font-size: 14px;
+     line-height: 1.2857142857142858em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 400;
+     color: var(--bg_13-color);
+ }
 
 
 
+ .meta_buttom {
+     display: flex;
+     justify-content: center;
+     padding-top: 15px;
+ }
 
 
+ .meta_buttom a {
+     font-size: 16px;
+     line-height: 1.3125em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 500;
+     color: var(--text_1-color);
 
+     text-decoration: none;
+     padding: 16px 91px;
+     background: var(--bg_7-color);
+     transition: .50s all ease;
+
+
+ }
+
+ .meta_buttom a:hover {
+     background-color: transparent;
+     border: 1px solid var(--text-color);
+     color: var(--bg_10-color);
+ }
+
+ /* .......section-02 End  */
+
+
+ /* SECTION-03 STRAT  */
+
+ .section-03 {
+     background-color: var(--bg_9-color);
+     min-height: 820px;
+
+
+ }
+
+
+ .law_content {
+
+     min-height: 570px;
+
+     display: flex;
+     gap: 59px;
+ }
+
+ .law_image {
+     max-width: 400px;
+     min-height: 620px;
+
+     position: relative;
+
+ }
+
+ .text {
+     min-width: 240px;
+     min-height: 150px;
+     background-color: var(--bg_15-color);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     border: 2px solid var(--bg_7-color);
+     position: absolute;
+     bottom: 9px;
+     right: -37px;
+ }
+
+ .text span h1 {
+     font-size: 50px;
+     line-height: 1.3em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 600;
+     color: var(--bg_7-color);
+
+ }
+
+ .text span h6 {
+     font-size: 16px;
+     line-height: 1.2857142857142858em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 500;
+     color: var(--text_1-color);
+
+ }
+
+
+ .text p {
+     font-size: 16px;
+     line-height: 1.433125em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 500;
+     color: var(--text_1-color);
+
+ }
 
 
 
@@ -461,178 +460,192 @@ transition: .50s all ease;
 
 
 
-/* <...........> */
-
-.about {
-    max-width: 401px;
-    min-height: 326px;
- 
-    margin-top: 78px;
-}
-.about h6 {
-    font-size: 14px;
-    line-height: 3.5714285714285716em;
-    letter-spacing: 2.4px;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 600;
-    color: var(--text_3-color);
-}
-
-.about h2{
-    font-size: 60px;
-    line-height:  0.8333333333333334em;
-    font-family: "Crimson Pro", serif;
-    font-weight: 600;
-   
-    color: var(--text-color);
-
-}
-.p_one {
-    font-size: 16px;
-    line-height:   1.3125em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    color: var(--bg_13-color);
-  padding-bottom: 35px;
-}
- 
 
 
 
-P {
-font-size: 16px;
-line-height: 1.3125em;
-font-family: "DM Sans", sans-serif;
-font-weight: 400;
-color: var(--text_5-color);
- 
-
-}
-
-
-.text_ceo {
-    display: flex;
-    align-items: center;
-    gap: 49px;
-    padding-top: 42px;
-}
-
-
-.text_ceo h4 {
-    font-size: 30px;
-    line-height:  1.6666666666666667em;
-    font-family: "Crimson Pro", serif;
-    font-weight: 600;
-    color:  var(--text-color);
-
-}
-.text_ceo p {
-    font-size: 16px;
-    line-height:    3.125em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    color:  var( --bg_7-color);
-
-}
-
-.text_ceo h5 {
-    font-size: 30px;
-    line-height:    1.6666666666666667em;
-    font-family: "Damion", cursive;
-    font-weight: 500;
-    color:  var( --bg_10-color);
-}
 
 
 
-/* <..............> */
+ /* <...........> */
+
+ .about {
+     max-width: 401px;
+     min-height: 326px;
+
+     margin-top: 78px;
+ }
+
+ .about h6 {
+     font-size: 14px;
+     line-height: 3.5714285714285716em;
+     letter-spacing: 2.4px;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 600;
+     color: var(--text_3-color);
+ }
+
+ .about h2 {
+     font-size: 60px;
+     line-height: 0.8333333333333334em;
+     font-family: "Crimson Pro", serif;
+     font-weight: 600;
+
+     color: var(--text-color);
+
+ }
+
+ .p_one {
+     font-size: 16px;
+     line-height: 1.3125em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 500;
+     color: var(--bg_13-color);
+     padding-bottom: 35px;
+ }
 
 
-.left_side_img{
-    max-width: 300px;
-    min-height: 518px;
-    border: 1px solid red;
-    margin-top: 60px;
-   
-    }
-.calender {
-    padding-bottom: 30px;
-}
 
 
-    
-.Meeting {
+ P {
+     font-size: 16px;
+     line-height: 1.3125em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 400;
+     color: var(--text_5-color);
+
+
+ }
+
+
+ .text_ceo {
+     display: flex;
+     align-items: center;
+     gap: 49px;
+     padding-top: 42px;
+ }
+
+
+ .text_ceo h4 {
+     font-size: 30px;
+     line-height: 1.6666666666666667em;
+     font-family: "Crimson Pro", serif;
+     font-weight: 600;
+     color: var(--text-color);
+
+ }
+
+ .text_ceo p {
+     font-size: 16px;
+     line-height: 3.125em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 400;
+     color: var(--bg_7-color);
+
+ }
+
+ .text_ceo h5 {
+     font-size: 30px;
+     line-height: 1.6666666666666667em;
+     font-family: "Damion", cursive;
+     font-weight: 500;
+     color: var(--bg_10-color);
+ }
+
+
+
+ /* <..............> */
+
+
+ .left_side_img {
+     max-width: 300px;
+     min-height: 518px;
+     border: 1px solid red;
+     margin-top: 60px;
+
+ }
+
+ .calender {
+     padding-bottom: 30px;
+ }
+
+
+
+ .Meeting {
      max-width: 300px;
      min-height: 188px;
-background-color: var(--bg_16-color);
-    
+     background-color: var(--bg_16-color);
+
      padding-left: 14px;
-}
-.Meeting span {
-    padding-top: 21px;
-    display: flex;
+ }
+
+ .Meeting span {
+     padding-top: 21px;
+     display: flex;
      gap: 25px;
-}
+ }
 
 
-.Meeting span h6 {
-    font-size: 16px;
-    line-height: 1.3125em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    color: var(--text_1-color);
+ .Meeting span h6 {
+     font-size: 16px;
+     line-height: 1.3125em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 500;
+     color: var(--text_1-color);
 
 
-}
-.Meeting span p {
-    font-size: 12px;
-    line-height: 1.3333333333333333em;
-    color: var(--text_6-color);
-    padding-bottom: 15px;
-}
+ }
+
+ .Meeting span p {
+     font-size: 12px;
+     line-height: 1.3333333333333333em;
+     color: var(--text_6-color);
+     padding-bottom: 15px;
+ }
 
 
-  a{
-    color: var(--text_1-color);
-    font-size: 14px;
-    line-height: 1.8em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    text-decoration: none;
- 
-    
-}
+ a {
+     color: var(--text_1-color);
+     font-size: 14px;
+     line-height: 1.8em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 400;
+     text-decoration: none;
+
+
+ }
+
  .meating_btn {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding-top: 23px;
-    
+     display: flex;
+     align-items: center;
+     gap: 15px;
+     padding-top: 23px;
+
  }
 
- .meating_btn   a {
-    font-size: 13px;
-line-height: 1.3076923076923077em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    padding: 6px 19px;
-    background-color: var(--bg_7-color);
-    transition: all .50s ease;
+ .meating_btn a {
+     font-size: 13px;
+     line-height: 1.3076923076923077em;
+     font-family: "DM Sans", sans-serif;
+     font-weight: 400;
+     padding: 6px 19px;
+     background-color: var(--bg_7-color);
+     transition: all .50s ease;
  }
 
- .meating_btn .shedul  a{
-    padding: 6px 19px;
-   color: var(--bg_15-color);
-   background-color: var(--bg_9-color);
+ .meating_btn .shedul a {
+     padding: 6px 19px;
+     color: var(--bg_15-color);
+     background-color: var(--bg_9-color);
  }
 
 
- .meating_btn   a:hover {
-    background: transparent;
-   
+ .meating_btn a:hover {
+     background: transparent;
+
  }
- .meating_btn .shedul  a:hover{
-    color: var(--bg_9-color);
+
+ .meating_btn .shedul a:hover {
+     color: var(--bg_9-color);
  }
 
 
@@ -681,67 +694,68 @@ line-height: 1.3076923076923077em;
      }
 
 
-/* SECTION-01 END  */
+     /* SECTION-01 END  */
 
-/* SECTION-02 STRAT  */
+     /* SECTION-02 STRAT  */
 
-.section-02 {
-    background: url(hero/giammarco-boscaro-zeH-ljawHtg-unsplash\ 1.jpg);
-    background-repeat: no-repeat;
-    padding-top: 32px;
-    position: relative;
-    top: 10%;
-}
+     .section-02 {
+         background: url(hero/giammarco-boscaro-zeH-ljawHtg-unsplash\ 1.jpg);
+         background-repeat: no-repeat;
+         padding-top: 32px;
+         position: relative;
+         top: 10%;
+     }
 
-.hero-heading {
-     
-    padding-right: 14px;
-    padding-top: 13px;
-    
-}
+     .hero-heading {
 
+         padding-right: 14px;
+         padding-top: 13px;
 
-
-
-
-
-.hero-heading h1 {
-    font-size: 40px;
-    padding-bottom: 13px;
- 
-}
-.hero-heading h6 {
-    font-size: 14px;
-    line-height: 1.5em;
-    letter-spacing: 1.6px;
-    font-weight: 500;
-    font-family: "DM Sans", sans-serif;
-    color: var(--text_1-color);
-    padding-bottom: 34px;
-}
-
-
-.contact {
-     
-    gap: 16px;
-}
-
-
-.PRACTICE {
-    padding: 12px 8px;
- 
-}
+     }
 
 
 
 
 
 
-.booking_meta {
-   
-    bottom: 23px;
-    min-width: 338px;
-}
+     .hero-heading h1 {
+         font-size: 40px;
+         padding-bottom: 13px;
+
+     }
+
+     .hero-heading h6 {
+         font-size: 14px;
+         line-height: 1.5em;
+         letter-spacing: 1.6px;
+         font-weight: 500;
+         font-family: "DM Sans", sans-serif;
+         color: var(--text_1-color);
+         padding-bottom: 34px;
+     }
+
+
+     .contact {
+
+         gap: 16px;
+     }
+
+
+     .PRACTICE {
+         padding: 12px 8px;
+
+     }
+
+
+
+
+
+
+     .booking_meta {
+
+         bottom: 23px;
+         min-width: 338px;
+     }
 
 
  }
@@ -876,15 +890,15 @@ line-height: 1.3076923076923077em;
 
 
 
-/* SECTION-01 END  */
+     /* SECTION-01 END  */
 
 
-/* SECTION-02 STRAT */
+     /* SECTION-02 STRAT */
 
-.hero-content {
-   
-    flex-direction: column;
-}
+     .hero-content {
+
+         flex-direction: column;
+     }
 
 
 
