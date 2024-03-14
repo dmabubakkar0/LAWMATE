@@ -32,6 +32,7 @@
   --bg_13-color: #aaaaaa;
   --bg_15-color: #333a4d;
   --bg_16-color: #292f40;
+  --bg_17-color:#F8F8F8;
 
   /* BORDER color  */
   --border-color: #e7e7e7;
@@ -588,19 +589,101 @@ a {
 
 
 /* SECTION-5 STRAT  */
+.section-05 {
+    background-color: var(--bg_9-color);
+    min-height: 1094px;
+    padding-top: 90px;
+}
+
+.practice_heading h6 {
+    font-size: 14px;
+    line-height:    1.2857142857142858em;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    color: var(--text_3-color);
+    text-align: center;
+
+}
+
+
+ .practice_heading h2 {
+    font-size: 60px;
+    line-height:  1.0em;
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+    text-align: center;
+padding-bottom: 34px;
+ }
+
+
+.services{
+ 
+ 
+    display: flex;
+    padding-top: 52px;
+}
+
+.services_card {
+ min-width: 234px;
+ min-height: 200px;
+   border: var(--bg_11-color);
+    background-color: var(--bg_17-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .50s ease;
+  
+}
+
+.services_card:hover{
+    background-color: var(--bg_15-color);
+
+}
+ 
+.services_card h3 {
+
+    font-size: 24px;
+    line-height:  1.125em;
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+    color: var(--text-color);
+    padding-top: 14px;
+}
+ 
 
 
 
+.about_content{
+    display: flex;
+    gap: 50px;
+}
 
 
 
+ 
+.Criminal_about {
+    max-width: 502px;
+    min-height: 455px;
+  
+}
 
 
 
-
-
-
-
+.Criminal_picture {
+    max-width: 705px;
+    min-height: 470px;
+    
+    position: relative;
+}
+.secend_img {
+   
+    
+    position: absolute;
+ left: -42px;
+    top: 50%;
+    border: 5px solid #FFF;
+}
 
 
 
