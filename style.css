@@ -32,7 +32,7 @@
   --bg_13-color: #aaaaaa;
   --bg_15-color: #333a4d;
   --bg_16-color: #292f40;
-  --bg_17-color:#F8F8F8;
+  --bg_17-color: #F8F8F8;
 
   /* BORDER color  */
   --border-color: #e7e7e7;
@@ -273,14 +273,14 @@ nav .src i {
   padding-bottom: 28px;
 }
 
-.card_meta {
+.card_metas {
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 15px;
 }
 
-.card {
+.card_meta {
   width: 310px;
   min-height: 50px;
 
@@ -289,14 +289,14 @@ nav .src i {
   align-items: center;
 }
 
-.card a {
+.card_meta a {
   text-decoration: none;
   padding-left: 20px;
   display: flex;
   gap: 15px;
 }
 
-.card a {
+.card_meta a {
   font-size: 14px;
   line-height: 1.2857142857142858em;
   font-family: "DM Sans", sans-serif;
@@ -549,140 +549,251 @@ a {
 
 /* SECTION-04 STRAT  */
 
-.section-04{
-    background-image: url(section-4/BG\ \(2\).jpg);
-    min-height: 366px;
-    background-repeat: no-repeat;
-   
- padding-top: 100px;
+.section-04 {
+  background-image: url(section-4/BG\ \(2\).jpg);
+  min-height: 366px;
+  background-repeat: no-repeat;
+
+  padding-top: 100px;
 
 }
 
- 
 
 
- .section-04_cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 170px;
- }
 
- .section-04_card h2{
-    font-size: 50px;
-    line-height: 1.12em;
-    font-family: "Crimson Pro", serif;
-    font-weight: 700;
-    color: var(--text_1-color);
-    padding-top: 14px;
-    padding-bottom: 4px;
+.section-04_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+}
 
- }
+.section-04_card h2 {
+  font-size: 50px;
+  line-height: 1.12em;
+  font-family: "Crimson Pro", serif;
+  font-weight: 700;
+  color: var(--text_1-color);
+  padding-top: 14px;
+  padding-bottom: 4px;
 
- .section-04_card p {
-    font-size: 18px;
-    line-height: 1.2777777777777777em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    color: var(--text_1-color);
- }
+}
+
+.section-04_card p {
+  font-size: 18px;
+  line-height: 1.2777777777777777em;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: var(--text_1-color);
+}
 
 
 /* SECTION-5 STRAT  */
 .section-05 {
-    background-color: var(--bg_9-color);
-    min-height: 1094px;
-    padding-top: 90px;
+  background-color: var(--bg_9-color);
+  min-height: 1094px;
+  padding-top: 90px;
 }
 
 .practice_heading h6 {
-    font-size: 14px;
-    line-height:    1.2857142857142858em;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 700;
-    color: var(--text_3-color);
-    text-align: center;
+  font-size: 14px;
+  line-height: 1.2857142857142858em;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  color: var(--text_3-color);
+  text-align: center;
 
 }
 
 
- .practice_heading h2 {
-    font-size: 60px;
-    line-height:  1.0em;
-    font-family: "Crimson Pro", serif;
-    font-weight: 600;
-    text-align: center;
-padding-bottom: 34px;
- }
+.practice_heading h2 {
+  font-size: 60px;
+  line-height: 1.0em;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 34px;
+}
 
 
-.services{
- 
- 
-    display: flex;
-    padding-top: 52px;
+.services {
+
+
+  display: flex;
+  padding-top: 52px;
 }
 
 .services_card {
- min-width: 234px;
- min-height: 200px;
-   border: var(--bg_11-color);
-    background-color: var(--bg_17-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all .50s ease;
-  
-}
-
-.services_card:hover{
-    background-color: var(--bg_15-color);
+  min-width: 234px;
+  min-height: 200px;
+  border: var(--bg_11-color);
+  background-color: var(--bg_17-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all .50s ease;
 
 }
- 
+
+.services_card:hover {
+  background-color: var(--bg_15-color);
+
+}
+
 .services_card h3 {
 
-    font-size: 24px;
-    line-height:  1.125em;
-    font-family: "Crimson Pro", serif;
-    font-weight: 600;
-    color: var(--text-color);
-    padding-top: 14px;
-}
- 
-
-
-
-.about_content{
-    display: flex;
-    gap: 50px;
+  font-size: 24px;
+  line-height: 1.125em;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: var(--text-color);
+  padding-top: 14px;
 }
 
 
 
- 
+
+.about_content {
+  display: flex;
+  gap: 64px;
+}
+
+
+
+
 .Criminal_about {
-    max-width: 502px;
-    min-height: 455px;
-  
+  max-width: 502px;
+  min-height: 455px;
+
 }
 
 
 
 .Criminal_picture {
-    max-width: 705px;
-    min-height: 470px;
-    
-    position: relative;
+
+
+  position: relative;
 }
+
 .secend_img {
-   
-    
-    position: absolute;
- left: -42px;
-    top: 50%;
-    border: 5px solid #FFF;
+  position: absolute;
+  left: -42px;
+  padding-top: 9px;
+  top: 50%;
+  background: #FFF;
+  width: 110px;
+  height: 116px;
+}
+
+
+.about_content {
+  padding-top: 52px;
+
+}
+
+.Criminal_about h6 {
+  font-size: 40px;
+  line-height: 1.1em;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: var(--bg_10-color);
+}
+
+.Criminal_about ul {
+  padding-top: 27px;
+  padding-bottom: 39px;
+}
+
+.Criminal_about p {
+  font-size: 16px;
+  line-height: 1.3757584em;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: var(--text_5-color);
+}
+
+
+
+
+
+.Criminal_about ul li {
+  font-size: 16px;
+  line-height: 1.3125em;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: var(--bg_10-color);
+  padding-top: 9px;
+
+}
+
+.btn_about a {
+  color: var(--text_1-color);
+  background-color: var(--bg_7-color);
+  padding: 16px 32px;
+  text-decoration: none;
+  transition: .50s all ease;
+}
+
+.btn_about a:hover {
+  background-color: var(--bg_15-color);
+}
+
+/* SECTION-05   END  */
+
+/* SECTION-06 STRAT  */
+
+.section-06 {
+  min-height: 570px;
+  background-color: var(--bg_9-color);
+  padding-top: 96px;
+  overflow: hidden;
+}
+
+
+
+.testimonial_content {
+ 
+
+}
+
+
+.textimonial_heading {
+ text-align: center;
+
+
+ background-color: var(--bg_17-color);
+  
+}
+
+
+
+.textimonial_heading h6 {
+  font-size: 14px;
+  line-height: 1.2857142857142858em;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  color: var(--text_3-color);
+
+}
+
+.textimonial_heading h2 {
+  font-size: 60px;
+  line-height: 1.2857142857142858em;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: var(--text-color);
+
+}
+
+.textimonial_heading p {
+  padding-bottom: 30px;
+}
+
+.textimonial_btn a {
+  color: var(--text_1-color);
+  background-color: var(--bg_7-color);
+  padding: 16px  18px;
 }
 
 
@@ -691,10 +802,70 @@ padding-bottom: 34px;
 
 
 
+.textimonial_card {
+  display: flex;
+  gap: 50px;
+}
+
+.content_text {
+  max-width: 276px;
+  min-height: 371px;
+  padding-top: 20px;
+
+}
+
+.testimonial_silder_wrapper {
+  width: 768px;
+ 
+ 
+}
+
+
+.content_text img {
+  padding-bottom: 23px;
+}
 
 
 
+.content_text h4 {
+  font-size: 24px;
+  line-height: 0.7999999999999999em;
+  font-family: "Crimson Pro", serif;
+  font-style: italic;
+  font-weight: 600;
+}
 
+
+.content_text h6 {
+  font-size: 18px;
+  line-height:  1.0666666666666667em;
+  font-family: "DM Sans", sans-serif;
+ font-weight: 700;
+ padding-top: 28px;
+  
+}
+.content_text p {
+  font-size: 13px;
+  line-height:  1.0666666666666667em;
+  font-family: "DM Sans", sans-serif;
+ font-weight: 500;
+ color: var(--text_4-color);
+ padding-top: 9px;
+ padding-bottom: 20px;
+  
+}
+
+
+
+.icon {
+
+}
+
+.icon a {
+  color: #000;
+  padding: 16px 19px;
+  background-color: var(--bg_7-color);
+}
 
 
 
@@ -820,31 +991,51 @@ padding-bottom: 34px;
     gap: 7px;
   }
 
-/* .section-04 Strat  */
+  /* .section-04 Strat  */
 
-.section-04 {
-   
-    
-    
+  .section-04 {
+
+
+
     margin-top: 100px;
-}
+  }
 
-.section-04_cards {
-    
+  .section-04_cards {
+
     gap: 66px;
-}
+  }
 
 
-.section-04_card h2 {
+  .section-04_card h2 {
     font-size: 30px;
- 
-}
 
-.section-04_card p {
+  }
+
+  .section-04_card p {
     font-size: 16px;
-   
-  
-}
+
+
+  }
+
+  /* SECTION-05 STRAT  */
+
+  .services {
+
+
+    flex-flow: wrap;
+
+  }
+
+  .about_content {
+
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+
+
+
 
 
 }
@@ -920,21 +1111,21 @@ padding-bottom: 34px;
     top: 100%;
   }
 
-  input:checked + header nav {
+  input:checked+header nav {
     height: 100vh;
   }
 
-  input:checked + header label div:nth-child(1) {
+  input:checked+header label div:nth-child(1) {
     transform: rotate(45deg);
     top: 50%;
   }
 
-  input:checked + header label div:nth-child(3) {
+  input:checked+header label div:nth-child(3) {
     transform: rotate(-45deg);
     top: 50%;
   }
 
-  input:checked + header label div:nth-child(2) {
+  input:checked+header label div:nth-child(2) {
     transform: scale(0);
     opacity: 0;
   }
@@ -978,6 +1169,7 @@ padding-bottom: 34px;
   .meating_btn {
     padding-top: 0px;
   }
+
   .Meeting {
     gap: 4px;
   }
@@ -988,29 +1180,55 @@ padding-bottom: 34px;
   }
 
 
-/* SECTION STRAT_04  */
+  /* SECTION STRAT_04  */
 
-.section-04 {
-     
+  .section-04 {
+
     min-height: 366px;
- background-repeat: repeat;
+    background-repeat: repeat;
     padding-top: 50px;
     margin-top: 36px;
-}
+  }
 
 
 
 
-.section-04_cards {
-  
+  .section-04_cards {
+
     flex-direction: column;
-    
+
     gap: 50px;
-}
+  }
+
+
+  .services {
+    display: flex;
+    padding-top: 0px;
+    justify-content: center;
+  }
+
+
+
+  .Criminal_about p {
+    font-size: 14px;
+
+  }
 
 
 
 
 
+
+
+  .Criminal_picture img {
+    max-width: 300px;
+  }
+
+  .secend_img {
+
+    padding-top: 10px;
+    top: 27%;
+
+  }
 
 }
