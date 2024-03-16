@@ -62,7 +62,10 @@ body {
 }
 
 header {
-  background-color: var(--bg_8-color);
+  background-color:  #282e3f67;
+  backdrop-filter: blur(10px);
+  backdrop-filter: drop-shadow(4px 4px 10px blue);
+ 
   min-width: 100%;
 
   display: flex;
@@ -1033,7 +1036,166 @@ gap: 20px;
 
 
 
+/* SECTION-08 END  */
 
+
+/* SECTION-09 STRAT  */
+
+.section-09 {
+  min-height: 700px;
+  background-color: var(--bg_9-color);
+}
+.Article_content {
+  padding-top: 96px;
+}
+
+.article_main{
+  padding-top: 37px;
+}
+
+
+.article_heading h3 {
+  font-size: 14px;
+  line-height:  1.2857142857142858em;
+  letter-spacing: 15%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  color: var(--text_3-color);
+  text-align: center;
+}
+
+.article_heading  h6 {
+  font-size: 60px;
+  line-height: 110%;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: var(--text-color);
+  text-align: center;
+
+}
+
+ 
+
+
+.article_main{
+  display: flex;
+  gap: 30px;
+}
+
+.article_card p {
+  font-size: 13px;
+  line-height: 110%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: var(--text_3-color);
+  padding-top: 13px;
+  padding-bottom: 11px;
+}
+.article_card h5 {
+  font-size: 25px;
+  line-height: 110%;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: var(--text-color);
+}
+/* SECTION-09 END  */
+
+footer {
+  background-image: url(footer/BG.jpg);
+  min-height: 516px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 100px;
+}
+
+.footer_content{
+  max-width: 1173px;
+  min-height: 387px;
+  border: 1px solid red;
+  display: flex;
+  gap: 20px;
+ 
+}
+
+
+ 
+
+
+
+.logo_lawmate {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+ 
+.logo_lawmate h6 {
+  font-size: 13px;
+  line-height:   1.3em;
+  letter-spacing: 3%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: var(--text_2-color);
+  padding-bottom: 21px;
+}
+
+.lawmate p {
+  font-size: 16px;
+  line-height: 130%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: var(--text_6-color);
+  padding-bottom: 25px;
+ 
+}
+
+.meadia_icon {
+  display: flex;
+  gap: 20px;
+}
+
+.meadia_icon  a {
+  background-color: var(--bg_10-color);
+  background-color: transparent;
+  padding: 7.5px 14px;
+  border: 1px solid #FFF;
+  border-radius: 50%;
+  transition: all .50s ease;
+
+}
+.meadia_icon  a:hover {
+  background-color: var(--bg_7-color);
+}
+
+.lawmate h5 {
+  font-size: 20px;
+  line-height: 110%;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: var(--text_3-color);
+  padding-top: 19px;
+  padding-bottom: 12px;
+ 
+}
+
+.Practice_Area{
+  padding-left: 52px;
+}
+.Practice_Area h2 {
+  font-size: 30px;
+  line-height: 110%;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: var(--text_1-color);
+}
+
+.Practice_Area ul li {
+  font-size: 16px;
+  line-height: 74%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: var(--text_6-color);
+  padding-top: 24px;
+}
 
 
 
