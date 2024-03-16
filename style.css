@@ -752,18 +752,15 @@ a {
 
 
 
-.testimonial_content {
- 
-
-}
+.testimonial_content {}
 
 
 .textimonial_heading {
- text-align: center;
+  text-align: center;
 
 
- background-color: var(--bg_17-color);
-  
+  background-color: var(--bg_17-color);
+
 }
 
 
@@ -793,7 +790,7 @@ a {
 .textimonial_btn a {
   color: var(--text_1-color);
   background-color: var(--bg_7-color);
-  padding: 16px  18px;
+  padding: 16px 18px;
 }
 
 
@@ -816,8 +813,8 @@ a {
 
 .testimonial_silder_wrapper {
   width: 768px;
- 
- 
+
+
 }
 
 
@@ -838,34 +835,132 @@ a {
 
 .content_text h6 {
   font-size: 18px;
-  line-height:  1.0666666666666667em;
+  line-height: 1.0666666666666667em;
   font-family: "DM Sans", sans-serif;
- font-weight: 700;
- padding-top: 28px;
-  
+  font-weight: 700;
+  padding-top: 28px;
+
 }
+
 .content_text p {
   font-size: 13px;
-  line-height:  1.0666666666666667em;
+  line-height: 1.0666666666666667em;
   font-family: "DM Sans", sans-serif;
- font-weight: 500;
- color: var(--text_4-color);
- padding-top: 9px;
- padding-bottom: 20px;
-  
-}
-
-
-
-.icon {
+  font-weight: 500;
+  color: var(--text_4-color);
+  padding-top: 9px;
+  padding-bottom: 20px;
 
 }
+
+
+
+.icon {}
 
 .icon a {
   color: #000;
   padding: 16px 19px;
   background-color: var(--bg_7-color);
 }
+
+/* SECTION-06 end  */
+
+.section-07 {
+  min-height: 1094px;
+  background-color: var(--bg_9-color);
+}
+
+.content_07 {
+  padding-top: 100px;
+}
+
+.sect_07_heading h6 {
+  font-size: 14px;
+  line-height: 1.2857142857142858em;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  color: var(--text_3-color);
+  text-align: center;
+}
+
+.sect_07_heading h2 {
+  font-size: 60px;
+  line-height: 1.2857142857142858em;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: var(--text-color);
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+
+.text_icon a {
+  color: #000;
+}
+
+.sect_07_main_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.sect_07_card {
+  position: relative;
+}
+
+.text_icon {
+  position: absolute;
+  bottom: 24px;
+  padding-left: 19px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+
+}
+
+.text_icon span p {
+  font-size: 14px;
+  line-height: 1.2857142857142858em;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: var(--text_3-color);
+}
+
+.text_icon span h6 {
+
+  font-size: 33px;
+  line-height: 1.0285714285714285em;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: var(--text_1-color);
+}
+
+
+.text_icon a {
+  color: var(--bg_9-color);
+  background-color: var(--bg_15-color);
+  background: transparent;
+  padding: 12.50px 18px;
+  border: 1px solid var(--bg_9-color);
+  border-radius: 50px;
+  transition: .50s ease;
+ 
+}
+
+
+.text_icon a:hover {
+  background-color: var(--bg_7-color);
+  border: none;
+}
+/* SECTION-07 END  */
+/* SECTION-08 STRAT  */
+ .section-08{
+   min-height: 810px;
+    
+ }
+ 
 
 
 
