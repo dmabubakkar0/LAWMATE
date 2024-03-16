@@ -52,12 +52,7 @@
   border: none;
 }
 
-/* <........> */
-.owl-theme .owl-nav.disabled + .owl-dots {
-  margin-top: 29px;
-  text-align: end;
-}
-/* <........> */
+ 
 
 .owl-theme .owl-dots .owl-dot span {
   width: 13px;
