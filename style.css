@@ -958,9 +958,83 @@ a {
 /* SECTION-08 STRAT  */
  .section-08{
    min-height: 810px;
-    
+    padding-top: 118px;
  }
  
+.attor_heading h6 {
+  font-size: 14px;
+  line-height: 1.2857142857142858em;
+  letter-spacing: 15%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  color: var(--text_3-color);
+  text-align: center;
+}
+
+.attor_heading h3 {
+  font-size: 60px;
+  line-height:  110%;
+  
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  color: var(--text-color);
+  text-align: center;
+}
+
+
+
+.attor_cards {
+  display: flex;
+  gap: 50px;
+  position: relative;
+  padding-top: 50px;
+}
+
+.bio{
+  position:  absolute;
+  bottom: 22px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio h2 {
+  font-size: 25px;
+  line-height:  110%;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: var(--text_1-color);
+}
+.bio p {
+  font-size: 14px;
+  line-height:  110%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400; 
+  color: var(--text_3-color);
+  padding-bottom: 28px;
+}
+
+
+
+
+
+
+.socile-icon {
+  background-color: var(--bg_7-color);
+ 
+  padding: 7.50px 28.5px;
+display: flex;
+gap: 20px;
+  
+}
+
+
+
+
+
+
 
 
 
