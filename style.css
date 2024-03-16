@@ -752,7 +752,7 @@ a {
 
 
 
-.testimonial_content {}
+ 
 
 
 .textimonial_heading {
@@ -855,7 +855,7 @@ a {
 
 
 
-.icon {}
+ 
 
 .icon a {
   color: #000;
@@ -959,6 +959,7 @@ a {
  .section-08{
    min-height: 810px;
     padding-top: 118px;
+    overflow: hidden;
  }
  
 .attor_heading h6 {
@@ -985,7 +986,7 @@ a {
 
 .attor_cards {
   display: flex;
-  gap: 50px;
+ gap: 30px;
   position: relative;
   padding-top: 50px;
 }
