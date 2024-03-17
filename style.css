@@ -62,10 +62,10 @@ body {
 }
 
 header {
-  background-color:  #282e3f67;
+  background-color: #282e3f67;
   backdrop-filter: blur(10px);
   backdrop-filter: drop-shadow(4px 4px 10px blue);
- 
+
   min-width: 100%;
 
   display: flex;
@@ -755,7 +755,7 @@ a {
 
 
 
- 
+
 
 
 .textimonial_heading {
@@ -858,7 +858,7 @@ a {
 
 
 
- 
+
 
 .icon a {
   color: #000;
@@ -905,11 +905,14 @@ a {
 .sect_07_main_cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
 }
 
 
 .sect_07_card {
   position: relative;
+ 
+
 }
 
 .text_icon {
@@ -949,7 +952,7 @@ a {
   border: 1px solid var(--bg_9-color);
   border-radius: 50px;
   transition: .50s ease;
- 
+
 }
 
 
@@ -957,14 +960,20 @@ a {
   background-color: var(--bg_7-color);
   border: none;
 }
+
+ 
+
+
+
+
 /* SECTION-07 END  */
 /* SECTION-08 STRAT  */
- .section-08{
-   min-height: 810px;
-    padding-top: 118px;
-    overflow: hidden;
- }
- 
+.section-08 {
+  min-height: 810px;
+  padding-top: 118px;
+  overflow: hidden;
+}
+
 .attor_heading h6 {
   font-size: 14px;
   line-height: 1.2857142857142858em;
@@ -977,8 +986,8 @@ a {
 
 .attor_heading h3 {
   font-size: 60px;
-  line-height:  110%;
-  
+  line-height: 110%;
+
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   color: var(--text-color);
@@ -989,13 +998,13 @@ a {
 
 .attor_cards {
   display: flex;
- gap: 30px;
+  gap: 30px;
   position: relative;
   padding-top: 50px;
 }
 
-.bio{
-  position:  absolute;
+.bio {
+  position: absolute;
   bottom: 22px;
   padding-left: 50px;
   display: flex;
@@ -1006,16 +1015,17 @@ a {
 
 .bio h2 {
   font-size: 25px;
-  line-height:  110%;
+  line-height: 110%;
   font-family: "Crimson Pro", serif;
   font-weight: 600;
   color: var(--text_1-color);
 }
+
 .bio p {
   font-size: 14px;
-  line-height:  110%;
+  line-height: 110%;
   font-family: "DM Sans", sans-serif;
-  font-weight: 400; 
+  font-weight: 400;
   color: var(--text_3-color);
   padding-bottom: 28px;
 }
@@ -1027,11 +1037,11 @@ a {
 
 .socile-icon {
   background-color: var(--bg_7-color);
- 
+
   padding: 7.50px 28.5px;
-display: flex;
-gap: 20px;
-  
+  display: flex;
+  gap: 20px;
+
 }
 
 
@@ -1042,21 +1052,22 @@ gap: 20px;
 /* SECTION-09 STRAT  */
 
 .section-09 {
-  min-height: 700px;
+  min-height: 794px;
   background-color: var(--bg_9-color);
 }
+
 .Article_content {
   padding-top: 96px;
 }
 
-.article_main{
+.article_main {
   padding-top: 37px;
 }
 
 
 .article_heading h3 {
   font-size: 14px;
-  line-height:  1.2857142857142858em;
+  line-height: 1.2857142857142858em;
   letter-spacing: 15%;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -1064,7 +1075,7 @@ gap: 20px;
   text-align: center;
 }
 
-.article_heading  h6 {
+.article_heading h6 {
   font-size: 60px;
   line-height: 110%;
   font-family: "Crimson Pro", serif;
@@ -1074,10 +1085,10 @@ gap: 20px;
 
 }
 
- 
 
 
-.article_main{
+
+.article_main {
   display: flex;
   gap: 30px;
 }
@@ -1091,13 +1102,42 @@ gap: 20px;
   padding-top: 13px;
   padding-bottom: 11px;
 }
+
 .article_card h5 {
   font-size: 25px;
   line-height: 110%;
   font-family: "Crimson Pro", serif;
   font-weight: 600;
   color: var(--text-color);
+
+
 }
+
+.butttom_artcile {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.butttom_artcile a {
+  padding: 12.50px 20.50px;
+  background-color: var(--bg_7-color);
+  color: var(--text_1-color);
+  font-size: 14px;
+  line-height: 1.8em;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+
+
+
+}
+
+
+
+
+
 /* SECTION-09 END  */
 
 footer {
@@ -1108,17 +1148,15 @@ footer {
   padding-top: 100px;
 }
 
-.footer_content{
-  max-width: 1173px;
-  min-height: 387px;
-  border: 1px solid red;
+.footer_content {
+  
   display: flex;
   gap: 20px;
- 
+
 }
 
 
- 
+
 
 
 
@@ -1127,10 +1165,10 @@ footer {
   gap: 6px;
   align-items: center;
 }
- 
+
 .logo_lawmate h6 {
   font-size: 13px;
-  line-height:   1.3em;
+  line-height: 1.3em;
   letter-spacing: 3%;
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
@@ -1145,7 +1183,7 @@ footer {
   font-weight: 400;
   color: var(--text_6-color);
   padding-bottom: 25px;
- 
+
 }
 
 .meadia_icon {
@@ -1153,7 +1191,7 @@ footer {
   gap: 20px;
 }
 
-.meadia_icon  a {
+.meadia_icon a {
   background-color: var(--bg_10-color);
   background-color: transparent;
   padding: 7.5px 14px;
@@ -1162,8 +1200,11 @@ footer {
   transition: all .50s ease;
 
 }
-.meadia_icon  a:hover {
+
+.meadia_icon a:hover {
   background-color: var(--bg_7-color);
+  border: none;
+  padding: 7.5px 14px;
 }
 
 .lawmate h5 {
@@ -1174,12 +1215,13 @@ footer {
   color: var(--text_3-color);
   padding-top: 19px;
   padding-bottom: 12px;
- 
+
 }
 
-.Practice_Area{
+.Practice_Area {
   padding-left: 52px;
 }
+
 .Practice_Area h2 {
   font-size: 30px;
   line-height: 110%;
@@ -1197,10 +1239,140 @@ footer {
   padding-top: 24px;
 }
 
+.contact_us {
+   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-left: 39px;
+ 
+  
+}
+
+.contact_us h2 {
+    font-size: 30px;
+  line-height: 110%;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: var(--text_1-color);
+  padding-right: 57px;
+}
+
+
+.number {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-right: 60px;
+}
+.contact_us i  {
+  font-size: 16px;
+  color: var(--bg_7-color);
+}
+
+ .contact_us p{
+  font-size: 16px;
+  line-height: 130%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: var(--text_6-color);
+}
 
 
 
 
+.Email {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+ 
+
+.loct {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+ .newsletter{
+ padding-left: 39px;
+ }
+
+
+
+.newsletter h2 {
+  font-size: 30px;
+  line-height: 110%;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  color: var(--text_1-color);
+  padding-bottom: 29px;
+}
+.newsletter p {
+  font-size: 16px;
+  line-height: 130%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: var(--text_6-color);
+  padding-bottom: 24px;
+}
+
+ 
+.placeholder {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #88888860;
+  color: var(--bg_17-color);
+  
+}
+.btn {
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 130%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  color:var(--text_1-color);
+
+  background-color: var(--bg_7-color);
+  transition: all .50s ease;
+  
+}
+
+
+
+
+.newsletter input {
+  display: block;
+  padding: 12px 48px;
+}
+
+ .btn:hover{
+  background-color: transparent;
+  border: 1px solid var(--bg_11-color);
+ }
+
+
+
+.border {
+  border: 1px solid #FFF;
+  
+}
+.copyright {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+
+
+ 
 
 
 @media (max-width: 1024px) {
