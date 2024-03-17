@@ -65,11 +65,11 @@ body {
 
 header {
   background-color: #282e3f67;
-  backdrop-filter: blur(10px);
-  backdrop-filter: drop-shadow(4px 4px 10px blue);
+  backdrop-filter: blur(5px);
+ 
 
   min-width: 100%;
-
+left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
