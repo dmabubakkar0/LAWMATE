@@ -705,10 +705,7 @@ a {
   color: var(--bg_10-color);
 }
 
-.Criminal_about ul {
-  padding-top: 27px;
-  padding-bottom: 39px;
-}
+
 
 .Criminal_about p {
   font-size: 16px;
@@ -718,7 +715,11 @@ a {
   color: var(--text_5-color);
 }
 
-
+.Criminal_about ul {
+  padding-top: 27px;
+  padding-bottom: 39px;
+  padding-left: 20px;
+}
 
 
 
@@ -1054,13 +1055,11 @@ a {
 /* SECTION-09 STRAT  */
 
 .section-09 {
-  min-height: 794px;
+  min-height: 655px;
   background-color: var(--bg_9-color);
 }
 
-.Article_content {
-  padding-top: 96px;
-}
+ 
 
 .article_main {
   padding-top: 37px;
@@ -1146,7 +1145,7 @@ footer {
   background-image: url(footer/BG.jpg);
   min-height: 516px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   padding-top: 100px;
 }
 
@@ -1221,7 +1220,7 @@ footer {
 }
 
 .Practice_Area {
-  padding-left: 52px;
+  padding-left: 40px;
 }
 
 .Practice_Area h2 {
@@ -1232,13 +1231,13 @@ footer {
   color: var(--text_1-color);
 }
 
-.Practice_Area ul li {
+.Practice_Area ul li  {
   font-size: 16px;
   line-height: 74%;
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   color: var(--text_6-color);
-  padding-top: 24px;
+  padding-top: 14px;
 }
 
 .contact_us {
