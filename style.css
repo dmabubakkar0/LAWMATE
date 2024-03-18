@@ -177,6 +177,7 @@ nav .src i {
   font-family: "DM Sans", sans-serif;
   color: var(--text_1-color);
   padding-bottom: 34px;
+  padding-top: 9px;
 }
 
 .contact {
