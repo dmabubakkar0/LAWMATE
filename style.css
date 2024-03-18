@@ -76,7 +76,7 @@ left: 0;
 
   position: fixed;
   z-index: 100;
-  padding: 30px 58px;
+  padding: 30px 30px;
 }
 
 .logo {
@@ -1386,6 +1386,16 @@ footer {
     width: 93px;
   }
 
+
+
+
+
+  .logo {
+    display: flex;
+    gap: 15px;
+  
+    margin-top: 18px;
+}
   nav {
     gap: 13px;
   }
@@ -1539,8 +1549,115 @@ footer {
   }
 
 
+  .practice_heading h2 {
+    font-size: 40px;
+ 
+    padding-bottom: 0px;
+}
+.services {
+ 
+  padding-top: 35px;
+}
 
 
+
+/* SEction-06 strat  */
+.textimonial_heading h2 {
+  font-size: 30px;
+ 
+}
+
+
+.textimonial_card {
+   
+  padding-top: 40px;
+   
+}
+
+.sect_07_heading h2 {
+  font-size: 40px;
+ 
+  padding-bottom: 50px;
+}
+
+.sect_07_main_cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sect_07_card .card_img img {
+  max-width: 337px;
+}
+
+
+
+.text_icon {
+ 
+  gap: 32px;
+}
+
+
+/* .section-08 STRAT  */
+
+.attor_heading h3 {
+  font-size: 40px;
+ 
+}
+
+
+
+
+
+
+
+.attor_cards {
+  display: flex;
+  gap: 0px;
+  
+}
+
+
+/* SECTION-09 strat */
+
+.section-09 {
+  min-height: 536px;
+  
+}
+
+.article_card img {
+  max-width: 220px;
+}
+
+
+
+.article_main {
+  display: flex;
+  gap: 30px;
+  
+}
+.article_card h5 {
+  font-size: 18px;}
+
+
+  .article_heading h6 {
+    font-size: 40px;
+    
+}
+  
+
+  /* FOOOTER STRAT  */
+
+
+  .footer_content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.newsletter {
+  padding-left: 105px;
+}
 
 
 }
@@ -1643,6 +1760,19 @@ footer {
     flex-direction: column;
   }
 
+  .hero-heading h1 {
+    font-size: 33px;
+    
+}
+
+.hero-heading h6 {
+  font-size: 13px;
+ 
+}
+
+
+ 
+
   /* .section-03 */
 
   .law_content {
@@ -1654,11 +1784,26 @@ footer {
 
   .section-02 {
     background: url(hero/giammarco-boscaro-zeH-ljawHtg-unsplash\ 1.jpg);
-    /* background-repeat: ; */
+  background-size: cover;
     padding-top: 32px;
     position: relative;
     top: 0%;
   }
+
+
+  .booking_meta {
+    bottom: 6px;
+    min-width: 338px;
+}
+
+
+
+
+
+
+
+
+
 
   /* .section-03  */
   P {
@@ -1735,5 +1880,66 @@ footer {
     top: 27%;
 
   }
+
+/* SECTION-07 STRAT  */
+
+.sect_07_main_cards {
+  
+  grid-template-columns: repeat(1, 1fr);
+  padding-left: 15px;
+}
+
+
+
+/* section-9 STRAT  */
+
+.sect_07_heading h2 {
+  font-size: 36px;
+   
+}
+
+.article_heading h6 {
+  font-size: 28px;
+}
+
+
+
+.article_card img {
+  max-width: 111px;
+}
+
+.article_card h5 {
+  font-size: 15px;
+}
+
+
+/* FOOTER STRAT  */
+
+.newsletter {
+  padding-left: 0px;
+}
+
+.lawmate {
+  padding-left: 14px;
+}
+
+.contact_us {
+ 
+  gap: 16px;
+  padding-left: 26px;
+}
+
+
+
+
+.newsletter p {
+ 
+  padding-bottom: 14px;
+}
+
+.copyright p{
+  font-size: 10px;
+}
+
 
 }
