@@ -1,27 +1,18 @@
-
-  
-
-
-
-
-
-
-
-  $(document).ready(function () {
-    $(".madarcho  ").owlCarousel({
+$(document).ready(function () {
+    $(".bal").owlCarousel({
       loop: true,
-      margin: 0,
+      margin: 5,
       responsiveClass: true,
       autoplay: 200,
       nav: false,
      
       responsive: {
         0: {
-          items: 3,
+          items: 0,
           nav: false,
         },
         600: {
-          items: 0,
+          items: 1,
           nav: false,
         },
         1000: {
@@ -32,4 +23,3 @@
       },
     });
   });
-  
