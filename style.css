@@ -1756,6 +1756,20 @@ footer {
 
   /* SECTION-02 STRAT */
 
+  .section-02 {
+    background: url(hero/giammarco-boscaro-zeH-ljawHtg-unsplash\ 1.jpg);
+  background-size: cover;
+    padding-top: 32px;
+    position: relative;
+    top: 0%;
+  }
+
+
+
+
+
+
+
   .hero-content {
     flex-direction: column;
   }
@@ -1770,10 +1784,15 @@ footer {
  
 }
 
+.booking_meta {
+  bottom: 6px;
+  min-width: 338px;
+}
 
+/* SECTION-02  END  */
  
 
-  /* .section-03 */
+   /* SECTION-03 STRAT  */
 
   .law_content {
     grid-template-columns: repeat(1, 2fr);
@@ -1782,52 +1801,57 @@ footer {
     justify-content: center;
   }
 
-  .section-02 {
-    background: url(hero/giammarco-boscaro-zeH-ljawHtg-unsplash\ 1.jpg);
-  background-size: cover;
-    padding-top: 32px;
-    position: relative;
-    top: 0%;
-  }
 
 
-  .booking_meta {
-    bottom: 6px;
-    min-width: 338px;
+
+
+
+P {
+  font-size: 21px;
+}
+
+.law_image {
+  max-width: 400px;
+  min-height: 0px;
+  position: relative;
+}
+
+.meating_btn {
+  padding-top: 0px;
+}
+
+.Meeting {
+  gap: 4px;
+}
+
+.text {
+  bottom: -39px;
+  right: 43px;
 }
 
 
 
 
+/* .section-05 STRAT  */
+.practice_heading h2 {
+  font-size: 37px;
+  padding-bottom: 0px;
+}
+/* SECTION-05 END  */
 
 
+/* SECTION-06 STRAT  */
 
+.textimonial_heading h2 {
+  font-size: 32px;
+  padding-bottom: 10px;
+}
 
+.textimonial_heading p {
+  font-size: 19px;
+}
 
-
-  /* .section-03  */
-  P {
-    font-size: 21px;
-  }
-
-  .law_image {
-    max-width: 400px;
-    min-height: 0px;
-    position: relative;
-  }
-
-  .meating_btn {
-    padding-top: 0px;
-  }
-
-  .Meeting {
-    gap: 4px;
-  }
-
-  .text {
-    bottom: -39px;
-    right: 43px;
-  }
+  
 
 
   /* SECTION STRAT_04  */
@@ -1881,6 +1905,9 @@ footer {
 
   }
 
+
+
+
 /* SECTION-07 STRAT  */
 
 .sect_07_main_cards {
@@ -1890,6 +1917,13 @@ footer {
 }
 
 
+/* SECTION-08 STARAT  */
+.attor_heading h3 {
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+/* END  */
 
 /* section-9 STRAT  */
 
@@ -1941,5 +1975,12 @@ footer {
   font-size: 10px;
 }
 
+/* section sstrat 09 */
+
+
+.section-09 {
+  min-height: 438px;
+}
+/* END  */
 
 }
