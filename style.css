@@ -3,7 +3,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Damion&display=swap");
 
- 
+
 
 * {
   padding: 0%;
@@ -66,10 +66,10 @@ body {
 header {
   background-color: #282e3f67;
   backdrop-filter: blur(5px);
- 
+
 
   min-width: 100%;
-left: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,7 +98,7 @@ nav {
   justify-content: space-between;
   gap: 28px;
   align-items: center;
- padding-right: 60px;
+  padding-right: 60px;
 }
 
 nav a {
@@ -203,10 +203,10 @@ nav .src i {
   display: flex;
   align-items: center;
 
-   
+
 }
 
- 
+
 
 .PRACTICE {
   text-decoration: none;
@@ -225,7 +225,7 @@ nav .src i {
 .number i {
   font-size: 28px;
   color: var(--text_1-color);
-   
+
 }
 
 .number span p {
@@ -246,16 +246,16 @@ nav .src i {
 }
 
 .booking_meta {
- padding: 44px 29px 30px 24px;
- 
+  padding: 44px 29px 30px 24px;
+
   background-color: var(--bg_9-color);
   border: 1px solid var(--bg_11-color);
- position: absolute;
- right: 0;
+  position: absolute;
+  right: 0;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
- 
+
 
 .booking_meta h2 {
   font-size: 22px;
@@ -264,7 +264,7 @@ nav .src i {
   font-weight: 500;
   color: var(--text_14-color);
   text-align: center;
-  
+
   padding-bottom: 13px;
 }
 
@@ -288,10 +288,10 @@ nav .src i {
 .card_meta {
   width: 310px;
   min-height: 50px;
-  
+
   border: 1px solid var(--border-color);
   display: flex;
- 
+
 }
 
 .card_meta a {
@@ -310,10 +310,11 @@ nav .src i {
   color: var(--bg_13-color);
 }
 
- 
-.meta_buttom{
+
+.meta_buttom {
   padding-top: 25px;
 }
+
 .meta_buttom a {
 
   font-size: 16px;
@@ -321,14 +322,14 @@ nav .src i {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   color: var(--text_1-color);
-margin-bottom: 15px;
+  margin-bottom: 15px;
   text-decoration: none;
   padding: 16px 91px;
   background: var(--bg_7-color);
- 
+
 }
 
- 
+
 /* .......section-02 End  */
 
 /* SECTION-03 STRAT  */
@@ -347,7 +348,7 @@ margin-bottom: 15px;
 }
 
 .law_image {
-  
+
   min-height: 620px;
 
   position: relative;
@@ -554,7 +555,7 @@ a {
   background-image: url(section-4/BG\ \(2\).jpg);
   min-height: 366px;
   background-repeat: no-repeat;
-background-size: cover;
+  background-size: cover;
   padding-top: 100px;
 
 }
@@ -575,7 +576,7 @@ background-size: cover;
   font-family: "Crimson Pro", serif;
   font-weight: 700;
   color: var(--text_1-color);
-  
+
   padding-bottom: 4px;
 
 }
@@ -621,7 +622,7 @@ background-size: cover;
 
 
   display: flex;
-  
+
 }
 
 .services_card {
@@ -636,12 +637,13 @@ background-size: cover;
   transition: all .50s ease;
 
 }
-.services_card:hover{
-background-color: var(--bg_8-color);
- 
+
+.services_card:hover {
+  background-color: var(--bg_8-color);
+
 }
 
- 
+
 
 .services_card h3 {
 
@@ -664,7 +666,7 @@ background-color: var(--bg_8-color);
 
 
 
- 
+
 
 .Criminal_picture {
 
@@ -675,10 +677,10 @@ background-color: var(--bg_8-color);
 .secend_img {
   position: absolute;
   left: -42px;
- 
+
   top: 50%;
   background: #FFF;
- 
+
   padding: 7px 5px;
 
 }
@@ -729,13 +731,13 @@ background-color: var(--bg_8-color);
   color: var(--text_1-color);
   background-color: var(--bg_7-color);
   padding: 15px 24px 14px 24px;
-  text-decoration: none; 
-  font-size: 16px ;
+  text-decoration: none;
+  font-size: 16px;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
 }
 
- 
+
 
 /* SECTION-05   END  */
 
@@ -906,7 +908,7 @@ background-color: var(--bg_8-color);
 
 .sect_07_card {
   position: relative;
- 
+
 
 }
 
@@ -956,7 +958,7 @@ background-color: var(--bg_8-color);
   border: none;
 }
 
- 
+
 
 
 
@@ -993,7 +995,7 @@ background-color: var(--bg_8-color);
 
 .attor_cards {
   display: flex;
- gap: 5px;
+  gap: 5px;
   position: relative;
   padding-top: 50px;
 }
@@ -1004,7 +1006,7 @@ background-color: var(--bg_8-color);
   padding-left: 50px;
   display: flex;
   flex-direction: column;
- 
+
   align-items: center;
 }
 
@@ -1051,7 +1053,7 @@ background-color: var(--bg_8-color);
   background-color: var(--bg_9-color);
 }
 
- 
+
 
 .article_main {
   padding-top: 37px;
@@ -1142,7 +1144,7 @@ footer {
 }
 
 .footer_content {
-  
+
   display: flex;
   gap: 20px;
 
@@ -1223,7 +1225,7 @@ footer {
   color: var(--text_1-color);
 }
 
-.Practice_Area ul li  {
+.Practice_Area ul li {
   font-size: 16px;
   line-height: 74%;
   font-family: "DM Sans", sans-serif;
@@ -1233,18 +1235,18 @@ footer {
 }
 
 .contact_us {
-   
+
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   padding-left: 39px;
- 
-  
+
+
 }
 
 .contact_us h2 {
-    font-size: 30px;
+  font-size: 30px;
   line-height: 110%;
   font-family: "Crimson Pro", serif;
   font-weight: 600;
@@ -1259,12 +1261,13 @@ footer {
   gap: 14px;
   padding-right: 60px;
 }
-.contact_us i  {
+
+.contact_us i {
   font-size: 16px;
   color: var(--bg_7-color);
 }
 
- .contact_us p{
+.contact_us p {
   font-size: 16px;
   line-height: 130%;
   font-family: "DM Sans", sans-serif;
@@ -1281,7 +1284,7 @@ footer {
   gap: 14px;
 }
 
- 
+
 
 .loct {
   display: flex;
@@ -1289,9 +1292,9 @@ footer {
   gap: 14px;
 }
 
- .newsletter{
- padding-left: 39px;
- }
+.newsletter {
+  padding-left: 39px;
+}
 
 
 
@@ -1303,6 +1306,7 @@ footer {
   color: var(--text_1-color);
   padding-bottom: 29px;
 }
+
 .newsletter p {
   font-size: 16px;
   line-height: 130%;
@@ -1312,25 +1316,26 @@ footer {
   padding-bottom: 24px;
 }
 
- 
+
 .placeholder {
   font-size: 16px;
   font-family: "DM Sans", sans-serif;
   background-color: #88888860;
   color: var(--bg_17-color);
-  
+
 }
+
 .btn {
   margin-top: 15px;
   font-size: 14px;
   line-height: 130%;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  color:var(--text_1-color);
+  color: var(--text_1-color);
 
   background-color: var(--bg_7-color);
   transition: all .50s ease;
-  
+
 }
 
 
@@ -1341,17 +1346,18 @@ footer {
   padding: 12px 48px;
 }
 
- .btn:hover{
+.btn:hover {
   background-color: transparent;
   border: 1px solid var(--bg_11-color);
- }
+}
 
 
 
 .border {
   border: 1px solid #FFF;
-  
+
 }
+
 .copyright {
   padding-top: 15px;
   display: flex;
@@ -1365,7 +1371,7 @@ footer {
 
 
 
- 
+
 
 
 @media (max-width: 1024px) {
@@ -1385,11 +1391,13 @@ footer {
   .logo {
     display: flex;
     gap: 15px;
-  
+  padding-left: 0px; 
     margin-top: 18px;
-}
+  }
+
   nav {
     gap: 13px;
+     padding-right: 0px;
   }
 
   nav a {
@@ -1415,14 +1423,14 @@ footer {
   }
 
   .hero-heading {
-    padding-right: 14px;
-    padding-top: 13px;
-  }
+    max-width: 366px;
+    
+}
 
-  .hero-heading h1 {
-    font-size: 40px;
-    padding-bottom: 13px;
-  }
+.hero-heading h1 {
+  font-size: 41px;
+  padding-bottom: 13px;
+}
 
   .hero-heading h6 {
     font-size: 14px;
@@ -1439,13 +1447,19 @@ footer {
   }
 
   .PRACTICE {
-    padding: 12px 8px;
-  }
+    padding: 15px 4px;
+}
 
+.PRACTICE {
+ 
+  font-size: 10px;
+  
+}
   .booking_meta {
-    bottom: 23px;
-    min-width: 338px;
-  }
+    padding: 25px 0px 30px 1px;
+    
+}
+
 
   /* SECTION-03 Strat  */
 
@@ -1455,28 +1469,31 @@ footer {
 
   .law_content {
     grid-template-columns: repeat(2, 2fr);
-    gap: 57px;
+    gap: 44px;
   }
 
   .law_image {
-    max-width: 318px px;
-  }
+    min-height: 0px;
+    position: relative;
+}
 
   .left_side_img {
     margin-top: px;
     display: contents;
   }
+  .about {
+   
+    margin-top: 0px;
+}
 
   .main_img img {
     width: 250px;
   }
 
   .text {
-    min-width: 198px;
-    min-height: 118px;
-    bottom: 196px;
+    bottom: 0;
     right: 16px;
-  }
+}
 
   .text span h1 {
     font-size: 30px;
@@ -1492,7 +1509,14 @@ footer {
 
   .p_one {
     padding-bottom: 18px;
-  }
+    padding-top: 6px;
+}
+
+.text_ceo {
+   
+  gap: 49px;
+  padding-top: 40px;
+}
 
   .Meeting {
     gap: 7px;
@@ -1534,67 +1558,70 @@ footer {
   }
 
   .about_content {
-
-    align-items: center;
     flex-direction: column-reverse;
-    gap: 20px;
+    justify-content: center;
+    align-items: center; 
+    gap: 30px;
   }
-
+  .Criminal_about {
+    padding-left: 64px;
+}
 
   .practice_heading h2 {
     font-size: 40px;
- 
+
     padding-bottom: 0px;
-}
-.services {
+  }
+
+  .services {
+
+    padding-top: 35px;
+  }
  
-  padding-top: 35px;
-}
+
+
+  /* SEction-06 strat  */
+  .textimonial_heading h2 {
+    font-size: 30px;
+
+  }
+
+
+  .textimonial_card {
+
+    padding-top: 40px;
+
+  }
+
+  .sect_07_heading h2 {
+    font-size: 40px;
+
+    padding-bottom: 50px;
+  }
+
+  .sect_07_main_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sect_07_card .card_img img {
+    max-width: 337px;
+  }
 
 
 
-/* SEction-06 strat  */
-.textimonial_heading h2 {
-  font-size: 30px;
- 
-}
+  .text_icon {
+
+    gap: 32px;
+  }
 
 
-.textimonial_card {
-   
-  padding-top: 40px;
-   
-}
+  /* .section-08 STRAT  */
 
-.sect_07_heading h2 {
-  font-size: 40px;
- 
-  padding-bottom: 50px;
-}
+  .attor_heading h3 {
+    font-size: 40px;
 
-.sect_07_main_cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.sect_07_card .card_img img {
-  max-width: 337px;
-}
-
-
-
-.text_icon {
- 
-  gap: 32px;
-}
-
-
-/* .section-08 STRAT  */
-
-.attor_heading h3 {
-  font-size: 40px;
- 
-}
+  }
 
 
 
@@ -1602,40 +1629,42 @@ footer {
 
 
 
-.attor_cards {
-  display: flex;
-  gap: 0px;
-  
-}
+  .attor_cards {
+    display: flex;
+    gap: 0px;
+
+  }
 
 
-/* SECTION-09 strat */
+  /* SECTION-09 strat */
 
-.section-09 {
-  min-height: 536px;
-  
-}
+  .section-09 {
+    min-height: 536px;
 
-.article_card img {
-  max-width: 220px;
-}
+  }
+
+  .article_card img {
+    max-width: 220px;
+  }
 
 
 
-.article_main {
-  display: flex;
-  gap: 30px;
-  
-}
-.article_card h5 {
-  font-size: 18px;}
+  .article_main {
+    display: flex;
+    gap: 30px;
+
+  }
+
+  .article_card h5 {
+    font-size: 18px;
+  }
 
 
   .article_heading h6 {
     font-size: 40px;
-    
-}
-  
+
+  }
+
 
   /* FOOOTER STRAT  */
 
@@ -1644,12 +1673,12 @@ footer {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-}
+  }
 
 
-.newsletter {
-  padding-left: 105px;
-}
+  .newsletter {
+    padding-left: 105px;
+  }
 
 
 }
@@ -1750,10 +1779,9 @@ footer {
 
   .section-02 {
     background: url(hero/giammarco-boscaro-zeH-ljawHtg-unsplash\ 1.jpg);
-  background-size: cover;
+    background-size: cover;
     padding-top: 32px;
-    position: relative;
-    top: 0%;
+    min-height: 771px ;
   }
 
 
@@ -1768,23 +1796,57 @@ footer {
 
   .hero-heading h1 {
     font-size: 33px;
-    
+
+  }
+
+  .hero-heading h6 {
+    font-size: 13px;
+
+  }
+
+  .contact {
+    gap: 40px;
+  }
+
+
+  .PRACTICE {
+    padding: 10px 8px;
 }
 
-.hero-heading h6 {
-  font-size: 13px;
+.PRACTICE {
  
+  font-size: 11px;
+ 
+}
+
+.number span a {
+  font-size: 14px;
+   
+}
+
+
+
+  .booking_meta {
+   
+    top: 268px;
+  
 }
 
 .booking_meta {
-  bottom: 6px;
-  min-width: 338px;
+  padding: 33px 29px 30px 24px;
+ 
 }
 
-/* SECTION-02  END  */
- 
+.meta_buttom a {
+  
+  padding: 16px 80px;
+  
+}
 
-   /* SECTION-03 STRAT  */
+  /* SECTION-02  END  */
+
+
+  /* SECTION-03 STRAT  */
 
   .law_content {
     grid-template-columns: repeat(1, 2fr);
@@ -1798,52 +1860,53 @@ footer {
 
 
 
-P {
-  font-size: 21px;
-}
+  P {
+    font-size: 21px;
+  }
 
-.law_image {
-  max-width: 400px;
-  min-height: 0px;
-  position: relative;
-}
+  .law_image {
+    max-width: 400px;
+    min-height: 0px;
+    position: relative;
+  }
 
-.meating_btn {
-  padding-top: 0px;
-}
+  .meating_btn {
+    padding-top: 0px;
+  }
 
-.Meeting {
-  gap: 4px;
-}
+  .Meeting {
+    gap: 4px;
+  }
 
-.text {
-  bottom: -39px;
-  right: 43px;
-}
-
-
+  .text {
+    bottom: -39px;
+    right: 43px;
+  }
 
 
-/* .section-05 STRAT  */
-.practice_heading h2 {
-  font-size: 37px;
-  padding-bottom: 0px;
-}
-/* SECTION-05 END  */
 
 
-/* SECTION-06 STRAT  */
+  /* .section-05 STRAT  */
+  .practice_heading h2 {
+    font-size: 37px;
+    padding-bottom: 0px;
+  }
 
-.textimonial_heading h2 {
-  font-size: 32px;
-  padding-bottom: 10px;
-}
+  /* SECTION-05 END  */
 
-.textimonial_heading p {
-  font-size: 19px;
-}
 
-  
+  /* SECTION-06 STRAT  */
+
+  .textimonial_heading h2 {
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+
+  .textimonial_heading p {
+    font-size: 19px;
+  }
+
+
 
 
   /* SECTION STRAT_04  */
@@ -1900,79 +1963,80 @@ P {
 
 
 
-/* SECTION-07 STRAT  */
+  /* SECTION-07 STRAT  */
 
-.sect_07_main_cards {
-  
-  grid-template-columns: repeat(1, 1fr);
-  padding-left: 15px;
-}
+  .sect_07_main_cards {
 
-
-/* SECTION-08 STARAT  */
-.attor_heading h3 {
-  font-size: 25px;
-  padding-top: 20px;
-}
-
-/* END  */
-
-/* section-9 STRAT  */
-
-.sect_07_heading h2 {
-  font-size: 36px;
-   
-}
-
-.article_heading h6 {
-  font-size: 28px;
-}
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 15px;
+  }
 
 
+  /* SECTION-08 STARAT  */
+  .attor_heading h3 {
+    font-size: 25px;
+    padding-top: 20px;
+  }
 
-.article_card img {
-  max-width: 111px;
-}
+  /* END  */
 
-.article_card h5 {
-  font-size: 15px;
-}
+  /* section-9 STRAT  */
 
+  .sect_07_heading h2 {
+    font-size: 36px;
 
-/* FOOTER STRAT  */
+  }
 
-.newsletter {
-  padding-left: 0px;
-}
-
-.lawmate {
-  padding-left: 14px;
-}
-
-.contact_us {
- 
-  gap: 16px;
-  padding-left: 26px;
-}
+  .article_heading h6 {
+    font-size: 28px;
+  }
 
 
 
+  .article_card img {
+    max-width: 111px;
+  }
 
-.newsletter p {
- 
-  padding-bottom: 14px;
-}
-
-.copyright p{
-  font-size: 10px;
-}
-
-/* section sstrat 09 */
+  .article_card h5 {
+    font-size: 15px;
+  }
 
 
-.section-09 {
-  min-height: 438px;
-}
-/* END  */
+  /* FOOTER STRAT  */
+
+  .newsletter {
+    padding-left: 0px;
+  }
+
+  .lawmate {
+    padding-left: 14px;
+  }
+
+  .contact_us {
+
+    gap: 16px;
+    padding-left: 26px;
+  }
+
+
+
+
+  .newsletter p {
+
+    padding-bottom: 14px;
+  }
+
+  .copyright p {
+    font-size: 10px;
+  }
+
+  /* section sstrat 09 */
+
+
+  .section-09 {
+    min-height: 438px;
+  }
+
+  /* END  */
 
 }
