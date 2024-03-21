@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
@@ -2018,25 +2019,5 @@ footer {
     padding-left: 26px;
   }
 
-
-
-
-  .newsletter p {
-
-    padding-bottom: 14px;
-  }
-
-  .copyright p {
-    font-size: 10px;
-  }
-
-  /* section sstrat 09 */
-
-
-  .section-09 {
-    min-height: 438px;
-  }
-
-  /* END  */
 
 }
