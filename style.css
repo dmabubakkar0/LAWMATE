@@ -77,7 +77,7 @@ header {
 
   position: fixed;
   z-index: 100;
-  padding: 30px 30px;
+  padding: 20px 30px;
 }
 
 .logo {
@@ -85,6 +85,9 @@ header {
   gap: 15px;
   padding-left: 60px;
 }
+
+ 
+
 
 
 .logo span h6 {
@@ -428,7 +431,7 @@ nav .src i {
   padding-bottom: 35px;
 }
 
-/* P {
+.about P {
   font-size: 16px;
   line-height: 1.3125em;
   font-family: "DM Sans", sans-serif;
@@ -479,11 +482,10 @@ nav .src i {
 }
 
 .Meeting {
-  max-width: 300px;
-  min-height: 188px;
+  padding: 21px 14px 25px 40px;
   background-color: var(--bg_16-color);
   display: flex;
-  padding-left: 14px;
+ 
   flex-direction: column;
 }
 
@@ -504,11 +506,13 @@ nav .src i {
 .Meeting span p {
   font-size: 12px;
   line-height: 1.3333333333333333em;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
   color: var(--text_6-color);
   padding-bottom: 15px;
 }
 
-a {
+.Meeting a {
   color: var(--text_1-color);
   font-size: 14px;
   line-height: 1.8em;
@@ -540,13 +544,9 @@ a {
   background-color: var(--bg_9-color);
 }
 
-.meating_btn a:hover {
-  background: transparent;
-}
+ 
 
-.meating_btn .shedul a:hover {
-  color: var(--bg_9-color);
-}
+ 
 
 /* SECTION-03 END  */
 
@@ -568,6 +568,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 170px;
 }
 
@@ -637,6 +638,14 @@ a {
   align-items: center;
   transition: all .50s ease;
 
+}
+.services_card  p {
+  font-size: 18px;
+  line-height: 1.0em;
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+  text-align: center;
+   
 }
 
 .services_card:hover {
@@ -983,7 +992,9 @@ a {
   gap: 20px;
 
 }
-
+.socile-icon a {
+  color: var(--text_1-color);
+}
 
 
 /* SECTION-08 END  */
@@ -1130,9 +1141,10 @@ footer {
 }
 
 .meadia_icon a {
+  color: var(--text_1-color);
   background-color: var(--bg_10-color);
   background-color: transparent;
-  padding: 7.5px 14px;
+ padding:  14px 17px 13px 16.63px;
   border: 1px solid #FFF;
   border-radius: 50%;
   transition: all .50s ease;
@@ -1142,7 +1154,7 @@ footer {
 .meadia_icon a:hover {
   background-color: var(--bg_7-color);
   border: none;
-  padding: 7.5px 14px;
+   
 }
 
 .lawmate h5 {

@@ -6,23 +6,23 @@
 
 .owl-theme.hero_logo_slider .owl-dots,
 .owl-theme .owl-nav {
-  display: none;
+  /* display: none; */
 }
 
 .owl-theme .owl-nav {
   margin-top: 10px;
-  display: none;
+  /* display: none; */
 }
 
 .owl-theme .owl-nav [class*="owl-"] {
   color: #fff;
-  font-size: 14px;
+  font-size: 0px;
   margin: 5px;
   padding: 4px 7px;
   background: #d6d6d6;
   display: inline-block;
   cursor: pointer;
-  border-radius: 3px;
+  /* border-radius: 3px; */
 }
 
 .owl-theme .owl-nav .disabled {
@@ -55,18 +55,19 @@
  
 
 .owl-theme .owl-dots .owl-dot span {
-  width: 13px;
-  height: 13px;
+  width: 50px;
+  height: 50px;
   margin: 5px 7px;
   background: rgb(0, 0, 0, 0.3) !important;
   display: block;
   -webkit-backface-visibility: visible;
   transition: opacity 0.2s ease;
-  border-radius: 30px;
+  /* border-radius: 30px; */
 }
 .owl-theme .owl-dots .owl-dot.active span {
   background: #000000 !important;
   width: 33px;
+  display: none;
 }
 .owl-theme .owl-dots .owl-dot span {
   cursor: pointer;
