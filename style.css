@@ -1793,6 +1793,7 @@ footer {
 
   .hero-content {
     flex-direction: column;
+    align-items: center;
   }
 
   .hero-heading h1 {
@@ -1800,38 +1801,60 @@ footer {
 
   }
 
-  .hero-heading h6 {
-    font-size: 13px;
-
-  }
-
-  .contact {
-    gap: 40px;
-  }
-
-
-  .PRACTICE {
-    padding: 10px 8px;
-}
-
-.PRACTICE {
- 
-  font-size: 11px;
- 
-}
-
-.number span a {
-  font-size: 14px;
-   
-}
-
-
-
-  .booking_meta {
-   
-    top: 268px;
+  .hero-heading {
+    max-width: 334px;
   
 }
+  
+
+.PRACTICE {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.3125em;
+ 
+}
+
+.contact {
+  gap: 16px;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-right: 74px;
+}
+
+
+
+
+
+ 
+
+.number i {
+  font-size: 21px;
+ 
+}
+ 
+.number span a {
+  font-size: 17px;
+ 
+}
+ 
+
+ 
+
+.booking_meta {
+ 
+    position: unset;
+   
+ 
+}
+
+
+.hero {
+  margin-right: 123px;
+}
+
+
+
+
 
 .booking_meta {
   padding: 33px 29px 30px 24px;
@@ -1839,10 +1862,9 @@ footer {
 }
 
 .meta_buttom a {
-  
-  padding: 16px 80px;
-  
+  padding: 16px 78px;
 }
+
 
   /* SECTION-02  END  */
 
@@ -1851,19 +1873,19 @@ footer {
 
   .law_content {
     grid-template-columns: repeat(1, 2fr);
-    gap: 17px;
-
-    justify-content: center;
+    gap: 15px;
+justify-items: center;
+    
   }
 
 
 
+  .about {
+    margin-top: 41px;
+}
 
 
-
-  P {
-    font-size: 21px;
-  }
+  
 
   .law_image {
     max-width: 400px;
@@ -1933,10 +1955,10 @@ footer {
 
   .services {
     display: flex;
-    padding-top: 0px;
+ 
     justify-content: center;
-  }
-
+    gap: 13px 1px;
+}
 
 
   .Criminal_about p {
@@ -1967,11 +1989,11 @@ footer {
   /* SECTION-07 STRAT  */
 
   .sect_07_main_cards {
-
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 15px;
-  }
-
+    
+    justify-items: center;
+    align-content: center;
+}
 
   /* SECTION-08 STARAT  */
   .attor_heading h3 {
@@ -1992,11 +2014,17 @@ footer {
     font-size: 28px;
   }
 
+  .article_main {
+  
+    flex-direction: column;
+  
+    align-items: center;
+   
+}
 
-
-  .article_card img {
-    max-width: 111px;
-  }
+.article_card img {
+  max-width: 341px;
+}
 
   .article_card h5 {
     font-size: 15px;
@@ -2005,19 +2033,42 @@ footer {
 
   /* FOOTER STRAT  */
 
-  .newsletter {
-    padding-left: 0px;
-  }
 
-  .lawmate {
-    padding-left: 14px;
-  }
+  footer {
+ 
+  
+    margin-top: 20px;
+}
 
-  .contact_us {
 
-    gap: 16px;
-    padding-left: 26px;
-  }
+
+
+  .footer_content {
+    
+    flex-direction: column;
+   
+    align-items: center;
+}
+
+
+.newsletter {
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
+
+.lawmate {
+  padding-left: 71px;
+}
+ 
+
+  .Practice_Area {
+    padding-right: 100px;
+}
+
+.contact_us {
+  gap: 16px; 
+  padding-right: 100px;
+}
 
 
 }
