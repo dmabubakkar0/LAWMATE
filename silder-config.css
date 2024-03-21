@@ -21,11 +21,11 @@
 }
 .owl-theme .owl-nav .owl-prev {
   font-size: 0px;
-  background-image: url(texti_img/arrow.png) !important;
+   background-image: url(texti_img/arrow.png) !important;
 }
 .owl-theme .owl-nav .owl-next {
   font-size: 0px;
-  background-image: url(texti_img/arrownext.png) !important;
+  background-image: url( texti_img/arrownext.png) !important;
 }
 .owl-theme .owl-nav .disabled {
   opacity: 0.5;
