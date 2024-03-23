@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
@@ -87,7 +86,7 @@ header {
   padding-left: 60px;
 }
 
- 
+
 
 
 
@@ -175,9 +174,11 @@ nav .src i {
 
 .hero-heading h1 {
   font-size: 70px;
+  line-height: 113%;
   font-family: "Crimson Pro", serif;
   font-weight: 600;
   color: var(--text_1-color);
+  padding-bottom: 18px;
 }
 
 .hero-heading h6 {
@@ -187,13 +188,16 @@ nav .src i {
   font-weight: 500;
   font-family: "DM Sans", sans-serif;
   color: var(--text_1-color);
-  padding-bottom: 34px;
-  padding-top: 9px;
+
+
 }
 
 .contact {
+  padding-top: 37px;
   display: flex;
+  align-items: center;
   gap: 30px;
+
 }
 
 .number {
@@ -205,13 +209,10 @@ nav .src i {
   padding: 19px 38px 20px 39px;
 
   background-color: var(--bg_7-color);
-  display: flex;
-  align-items: center;
+
 
 
 }
-
-
 
 .PRACTICE {
   text-decoration: none;
@@ -250,88 +251,105 @@ nav .src i {
   text-decoration: none;
 }
 
+
+
 .booking_meta {
-  padding: 44px 29px 30px 24px;
-
+  padding: 44px 25px 30px 24px;
   background-color: var(--bg_9-color);
-  border: 1px solid var(--bg_11-color);
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:  absolute;
   right: 0;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ border: 1px solid var(--bg_11-color);
+
+
 }
-
-
 
 .booking_meta h2 {
   font-size: 22px;
   line-height: 1.3181818181818181em;
   font-family: "DM Sans", sans-serif;
-  font-weight: 500;
-  color: var(--text_14-color);
-  text-align: center;
-
-  padding-bottom: 13px;
+  font-weight: 700;
+  color: var(--text_12-color);
+  padding-bottom: 14px;
 }
-
 .booking_meta p {
   font-size: 14px;
-  line-height: 1.5999999999999999em;
+  line-height: 140%;
   font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  color: var(--text_4-color);
-  text-align: center;
-  padding-bottom: 28px;
+  font-weight: 500;
+  color: var(--text_12-color);
 }
 
-.card_metas {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 15px;
+
+
+
+
+
+ .frome {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   padding-top: 27px;
+ 
 }
 
-.card_meta {
+ .frome input {
+  display: block;
+  border: none;
+ 
+}
+
+ .frome input:hover{
+ border: 1px solid var(--border-color);
+}
+
+.input_box   {
+ position: relative;
+}
+
+.input_icon {
+  position: absolute;
+  top: 33%;
+  left: 6%;
+}
+.input_icon i {
+ 
+color: var(--bg_13-color);
+}
+ 
+.input_box input {
+
   width: 310px;
-  min-height: 50px;
 
-  border: 1px solid var(--border-color);
-  display: flex;
-
-}
-
-.card_meta a {
-  text-decoration: none;
-  padding-left: 20px;
-  display: flex;
-  gap: 15px;
-  align-items: center;
-}
-
-.card_meta a {
+  height: 50px;
+  padding-top: 16px;
+  padding-left: 49px;
   font-size: 14px;
-  line-height: 1.2857142857142858em;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
   color: var(--bg_13-color);
+  line-height: 1.2857142857142858em;
+  font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--border-color);
+  padding-bottom: 20px;
+ 
 }
 
-
-.meta_buttom {
-  padding-top: 25px;
+.meta_buttom  {
+  display: flex;
 }
 
 .meta_buttom a {
-
+  padding: 15px 59px 14px 58px;
+  background-color: var(--bg_7-color);
   font-size: 16px;
-  line-height: 1.3125em;
+  line-height:  1.3125em;
   font-family: "DM Sans", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   color: var(--text_1-color);
-  margin-bottom: 15px;
-  text-decoration: none;
-  padding: 16px 91px;
-  background: var(--bg_7-color);
-
+  
 }
 
 
@@ -438,9 +456,9 @@ nav .src i {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   color: var(--text_5-color);
-} */
+}
 
-.text_ceo {
+*/ .text_ceo {
   display: flex;
   align-items: center;
   gap: 49px;
@@ -483,17 +501,20 @@ nav .src i {
 }
 
 .Meeting {
-  padding: 21px 14px 25px 40px;
+  max-width: 300px;
+  
+  padding: 21px 14px 25px 14px;
   background-color: var(--bg_16-color);
   display: flex;
- 
+
   flex-direction: column;
 }
 
 .Meeting span {
-  padding-top: 21px;
+   
   display: flex;
-  gap: 25px;
+  gap: 34px;
+  padding-bottom: 15px;
 }
 
 .Meeting span h6 {
@@ -510,7 +531,11 @@ nav .src i {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   color: var(--text_6-color);
-  padding-bottom: 15px;
+   
+}
+
+.clock{
+  padding-bottom: 17px;
 }
 
 .Meeting a {
@@ -526,7 +551,8 @@ nav .src i {
   display: flex;
   align-items: center;
   gap: 15px;
-  padding-top: 23px;
+  padding-top: 25px;
+   
 }
 
 .meating_btn a {
@@ -545,9 +571,9 @@ nav .src i {
   background-color: var(--bg_9-color);
 }
 
- 
 
- 
+
+
 
 /* SECTION-03 END  */
 
@@ -601,8 +627,9 @@ nav .src i {
 }
 
 .practice_heading h6 {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.2857142857142858em;
+  letter-spacing: 15%;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   color: var(--text_3-color);
@@ -623,8 +650,9 @@ nav .src i {
 
 .services {
 
-
-  display: flex;
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+ 
 
 }
 
@@ -640,17 +668,19 @@ nav .src i {
   transition: all .50s ease;
 
 }
-.services_card  p {
+
+.services_card p {
   font-size: 18px;
   line-height: 1.0em;
   font-family: "Crimson Pro", serif;
   font-weight: 600;
   text-align: center;
-   
+
 }
 
-.services_card:hover {
+.services_card:hover  {
   background-color: var(--bg_8-color);
+  color: var(--text_1-color);
 
 }
 
@@ -662,7 +692,7 @@ nav .src i {
   line-height: 1.125em;
   font-family: "Crimson Pro", serif;
   font-weight: 600;
-  color: var(--text-color);
+  
   padding-top: 14px;
 }
 
@@ -702,7 +732,7 @@ nav .src i {
 
 }
 
-.Criminal_about h6 {
+.Criminal_about h2 {
   font-size: 40px;
   line-height: 1.1em;
   font-family: "Crimson Pro", serif;
@@ -718,7 +748,9 @@ nav .src i {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   color: var(--text_5-color);
+  padding-top: 28px;
 }
+
 
 .Criminal_about ul {
   padding-top: 27px;
@@ -754,28 +786,32 @@ nav .src i {
 
 /* SECTION-06 STRAT  */
 
- 
+
 .section-06 .container {
   max-width: 1230px;
   padding: 0 30px;
   margin: auto;
   overflow: hidden;
 }
-.section-06  {
+
+.section-06 {
   padding: 120px 0;
 }
+
 .section-06 .testimonials_content {
   display: flex;
   justify-content: space-between;
   align-items: start;
   gap: 30px;
 }
-.section-06  .testimonials_content .text_part {
+
+.section-06 .testimonials_content .text_part {
   max-width: 371px;
   display: flex;
   flex-direction: column;
   align-items: start;
 }
+
 .section-06 .testimonials_content .slider_part {
   max-width: 770px;
   display: flex;
@@ -784,7 +820,8 @@ nav .src i {
   overflow: hidden;
   position: relative;
 }
-.section-06  .testimonials_content .text_part h3 {
+
+.section-06 .testimonials_content .text_part h3 {
   font-family: "DM Sans", sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -792,6 +829,7 @@ nav .src i {
   font-weight: 700;
   color: #cf9455;
 }
+
 .section-06 .testimonials_content .text_part h2 {
   font-family: "Crimson Pro", serif;
   font-size: 60px;
@@ -799,6 +837,7 @@ nav .src i {
   font-weight: 600;
   color: #000000;
 }
+
 .section-06 .testimonials_content .text_part p {
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
@@ -808,7 +847,8 @@ nav .src i {
   margin-top: 24px;
   margin-bottom: 40px;
 }
-.section-06  .testimonials_content .text_part .btn {
+
+.section-06 .testimonials_content .text_part .btn {
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   line-height: 21px;
@@ -828,7 +868,7 @@ nav .src i {
 
 
 .sect_07_heading h6 {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.2857142857142858em;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -925,7 +965,7 @@ nav .src i {
 }
 
 .attor_heading h6 {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.2857142857142858em;
   letter-spacing: 15%;
   font-family: "DM Sans", sans-serif;
@@ -934,7 +974,7 @@ nav .src i {
   text-align: center;
 }
 
-.attor_heading h3 {
+.attor_heading h2 {
   font-size: 60px;
   line-height: 110%;
 
@@ -993,6 +1033,7 @@ nav .src i {
   gap: 20px;
 
 }
+
 .socile-icon a {
   color: var(--text_1-color);
 }
@@ -1043,7 +1084,7 @@ nav .src i {
   gap: 30px;
 }
 
-.article_card p {
+.article_card h6 {
   font-size: 13px;
   line-height: 110%;
   font-family: "DM Sans", sans-serif;
@@ -1053,7 +1094,7 @@ nav .src i {
   padding-bottom: 11px;
 }
 
-.article_card h5 {
+.article_card p {
   font-size: 25px;
   line-height: 110%;
   font-family: "Crimson Pro", serif;
@@ -1145,7 +1186,7 @@ footer {
   color: var(--text_1-color);
   background-color: var(--bg_10-color);
   background-color: transparent;
- padding:  14px 17px 13px 16.63px;
+  padding: 14px 17px 13px 16.63px;
   border: 1px solid #FFF;
   border-radius: 50%;
   transition: all .50s ease;
@@ -1155,7 +1196,7 @@ footer {
 .meadia_icon a:hover {
   background-color: var(--bg_7-color);
   border: none;
-   
+
 }
 
 .lawmate h5 {
@@ -1234,13 +1275,11 @@ footer {
 
 
 
-.Email {
+ 
+ form {
   display: flex;
-  align-items: center;
-  gap: 14px;
-}
-
-
+  flex-direction: column;
+ }
 
 .loct {
   display: flex;
@@ -1321,13 +1360,17 @@ footer {
   align-items: center;
 }
 
+.copyright p {
+
+  font-size:22px;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  color: #ffffff87;
+}
 
 
 
-
-
-
-
+/* %---------% */
 
 
 @media (max-width: 1024px) {
@@ -1347,13 +1390,13 @@ footer {
   .logo {
     display: flex;
     gap: 15px;
-  padding-left: 0px; 
+    padding-left: 0px;
     margin-top: 18px;
   }
 
   nav {
     gap: 13px;
-     padding-right: 0px;
+    padding-right: 0px;
   }
 
   nav a {
@@ -1375,18 +1418,20 @@ footer {
   /* SECTION-02 STRAT  */
 
   .section-02 {
-    padding-top: 32px;
-  }
+    /* padding-top: 32px; */
+    padding-top: 80px;
+}
 
   .hero-heading {
     max-width: 366px;
-    
-}
 
-.hero-heading h1 {
-  font-size: 41px;
-  padding-bottom: 13px;
-}
+  }
+
+  .hero-heading h1 {
+    font-size: 44px;
+    padding-bottom: 13px;
+  }
+
 
   .hero-heading h6 {
     font-size: 14px;
@@ -1398,57 +1443,80 @@ footer {
     padding-bottom: 34px;
   }
 
-  .contact {
-    gap: 16px;
-  }
 
-  .PRACTICE {
-    padding: 15px 4px;
+  .contact {
+   
+    display: unset;
+   
+}
+
+
+  .hero {
+    padding-bottom: 37px;
 }
 
 .PRACTICE {
+  font-size: 16px;
+}
  
-  font-size: 10px;
+.booking_meta {
+ 
+  position: unset;
   
 }
-  .booking_meta {
-    padding: 25px 0px 30px 1px;
-    
-}
+
+
+
+
+
 
 
   /* SECTION-03 Strat  */
 
   .section-03 {
-    padding-top: 99px;
+    padding-top: 80px;
   }
 
   .law_content {
     grid-template-columns: repeat(2, 2fr);
-    gap: 44px;
-  }
+    gap: 39px 29px;
+}
 
   .law_image {
     min-height: 0px;
     position: relative;
+  }
+
+  .text {
+    bottom: 32px;
+    right: 60px;
 }
 
+
+
+
   .left_side_img {
-    margin-top: px;
+   
     display: contents;
   }
+
   .about {
-   
-    margin-top: 0px;
-}
+
+    margin-top: unset;
+  }
 
   .main_img img {
     width: 250px;
   }
-
-  .text {
-    bottom: 0;
-    right: 16px;
+  .about h2 {
+    font-size: 48px;
+}
+.about P {
+  font-size: 18px;
+  line-height: 1.3125em;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: var(--text_5-color);
 }
 
   .text span h1 {
@@ -1459,32 +1527,41 @@ footer {
     font-size: 14px;
   }
 
-  .about h2 {
-    font-size: 30px;
-  }
+   
 
   .p_one {
     padding-bottom: 18px;
     padding-top: 6px;
+  }
+
+  .text_ceo {
+    gap: 49px;
+    padding-top: 25px;
+    display: flex;
 }
 
-.text_ceo {
-   
-  gap: 49px;
-  padding-top: 40px;
+  .calender {
+    padding-bottom: unset;
 }
+
+
+
 
   .Meeting {
-    gap: 7px;
-  }
+    width: 300px;
+    height: 188px;
+    padding: 18px 14px 25px 14px;
+    background-color: var(--bg_16-color);
+    display: flex;
+    flex-direction: column;
+}
+
+
 
   /* .section-04 Strat  */
 
   .section-04 {
-
-
-
-    margin-top: 100px;
+    margin-top: 80px;
   }
 
   .section-04_cards {
@@ -1506,33 +1583,51 @@ footer {
 
   /* SECTION-05 STRAT  */
 
-  .services {
+  .section-05 {
+   
+    padding-top: 80px;
+}
 
 
-    flex-flow: wrap;
 
-  }
-
-  .about_content {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center; 
-    gap: 30px;
-  }
-  .Criminal_about {
-    padding-left: 64px;
+  .practice_heading h6 {
+    font-size: 18px;
+  
 }
 
   .practice_heading h2 {
-    font-size: 40px;
+    font-size: 48px;
+   
+    
+}
 
-    padding-bottom: 0px;
+
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 10px 13px;
+  padding-top: 35px;
+}
+
+ 
+.about_content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 64px;
+}
+
+
+
+
+  .Criminal_about {
+    padding-left: 64px;
   }
 
-  .services {
 
-    padding-top: 35px;
-  }
+  
+
  
 
 
@@ -1548,17 +1643,27 @@ footer {
     padding-top: 40px;
 
   }
+ /* .section-07 STRAt  */
+
+ .sect_07_heading h6 {
+  font-size: 18px;
+   
+}
+
+
+
+
 
   .sect_07_heading h2 {
-    font-size: 40px;
+    font-size: 48px;
 
-    padding-bottom: 50px;
   }
 
   .sect_07_main_cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
+    justify-items: center;
+}
 
   .sect_07_card .card_img img {
     max-width: 337px;
@@ -1571,59 +1676,80 @@ footer {
     gap: 32px;
   }
 
+  /* SECTION-08 strat */
+  .section-08 {
+   
+    padding-top: 80px;
+    
+}
 
-  /* .section-08 STRAT  */
 
-  .attor_heading h3 {
-    font-size: 40px;
 
+
+  .attor_heading h6 {
+    font-size: 18px;
+   
   }
 
 
+  .attor_heading h2 {
+    font-size: 48px;
 
-
-
-
+  }
 
   .attor_cards {
     display: flex;
     gap: 0px;
 
+
+/* END  */
+
+/* article sTRAt  */
+
+.section-09 {
+  min-height: 536px;
+padding-top: 80px;
+}
+
+
+
+.article_heading h6 {
+  font-size: 48px;
+
+}
+
+ 
+
+
+
   }
-
-
-  /* SECTION-09 strat */
-
-  .section-09 {
-    min-height: 536px;
-
-  }
-
   .article_card img {
-    max-width: 220px;
+    max-width: 240px;
   }
 
+  .article_card h6 {
+    font-size: 17px;
+ 
+}
 
-
-  .article_main {
-    display: flex;
-    gap: 30px;
-
-  }
-
-  .article_card h5 {
+  .article_card p {
     font-size: 18px;
-  }
+ 
+}
+
+  
 
 
-  .article_heading h6 {
-    font-size: 40px;
 
-  }
+  
 
 
   /* FOOOTER STRAT  */
-
+  footer {
+ 
+    padding-top: 80px;
+  }
+  
 
   .footer_content {
     display: flex;
@@ -1635,9 +1761,22 @@ footer {
   .newsletter {
     padding-left: 105px;
   }
+  .copyright p {
 
+    font-size: 18px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    color: #ffffff87;
+  }
+  
 
 }
+
+
+/* %--------- */
+
+
+
 
 @media (max-width: 767px) {
   header {
@@ -1734,16 +1873,10 @@ footer {
   /* SECTION-02 STRAT */
 
   .section-02 {
-    background: url(hero/giammarco-boscaro-zeH-ljawHtg-unsplash\ 1.jpg);
-    background-size: cover;
-    padding-top: 32px;
-    min-height: 771px ;
+ 
+    padding-top: 45px;
+    
   }
-
-
-
-
-
 
 
   .hero-content {
@@ -1752,73 +1885,92 @@ footer {
   }
 
   .hero-heading h1 {
-    font-size: 33px;
+    font-size: 28px;
+}
+.hero-heading h6 {
+  font-size: 14px;
+ 
+}
 
-  }
 
   .hero-heading {
     max-width: 334px;
-  
+
+  }
+
+
+  .PRACTICE {
+ 
+    font-size: 14px;
+    
+      padding: 16px 35px 17px 36px;
+      
+ 
+
+  }
+
+  .contact {
+    gap: 16px;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-right: 74px;
+  }
+
+
+
+
+
+
+
+  .number i {
+    font-size: 21px;
+
+  }
+
+  .number span a {
+    font-size: 17px;
+
+  }
+
+
+
+
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    padding-top: 27px;
 }
-  
-
-.PRACTICE {
-  text-decoration: none;
-  font-size: 12px;
-  line-height: 1.3125em;
- 
-}
-
-.contact {
-  gap: 16px;
-  flex-direction: column-reverse;
-  align-items: center;
-  padding-right: 74px;
-}
 
 
 
 
 
- 
 
-.number i {
-  font-size: 21px;
- 
-}
- 
-.number span a {
-  font-size: 17px;
- 
-}
- 
+  .hero {
+    margin-right: 123px;
+  }
 
- 
 
-.booking_meta {
- 
+
+
+
+  .booking_meta {
+    padding: 33px 29px 30px 24px;
     position: unset;
-   
+
+  }
+
+  .meta_buttom a {
+    padding: 16px 75px;
+    font-size: 13px;
+}
+
+
  
-}
 
-
-.hero {
-  margin-right: 123px;
-}
-
-
-
-
-
-.booking_meta {
-  padding: 33px 29px 30px 24px;
- 
-}
-
-.meta_buttom a {
-  padding: 16px 78px;
-}
 
 
   /* SECTION-02  END  */
@@ -1826,21 +1978,41 @@ footer {
 
   /* SECTION-03 STRAT  */
 
+  .section-03 {
+    padding-top: 45px;
+}
+
+
+
+
   .law_content {
     grid-template-columns: repeat(1, 2fr);
     gap: 15px;
-justify-items: center;
-    
+    justify-items: center;
+
   }
 
 
 
   .about {
-    margin-top: 41px;
+    margin-top: 30px;
+  }
+
+
+
+
+  .about h2 {
+    font-size: 32px;
+}
+
+.about P {
+  font-size: 16px;
+ 
 }
 
 
-  
+ 
+
 
   .law_image {
     max-width: 400px;
@@ -1857,32 +2029,19 @@ justify-items: center;
   }
 
   .text {
-    bottom: -39px;
-    right: 43px;
+  position:  unset;
   }
 
 
-
-
-  /* .section-05 STRAT  */
   .practice_heading h2 {
     font-size: 37px;
     padding-bottom: 0px;
   }
 
-  /* SECTION-05 END  */
+   
 
 
-  /* SECTION-06 STRAT  */
 
-  .textimonial_heading h2 {
-    font-size: 32px;
-    padding-bottom: 10px;
-  }
-
-  .textimonial_heading p {
-    font-size: 19px;
-  }
 
 
 
@@ -1908,12 +2067,32 @@ justify-items: center;
   }
 
 
+
+  /* SECTION-05 STRAT  */
   .services {
-    display: flex;
- 
-    justify-content: center;
-    gap: 13px 1px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    justify-items: center;
+    
 }
+
+.practice_heading h6 {
+  font-size: 14px;}
+
+
+
+
+.practice_heading h2 {
+  font-size: 28px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+ 
+
+
+
+
 
 
   .Criminal_about p {
@@ -1939,47 +2118,98 @@ justify-items: center;
   }
 
 
+  .Criminal_about h2 {
+    font-size: 28px;
+    line-height: 1.1em;
+    font-family: "Crimson Pro", serif;
+    font-weight: 600;
+    color: var(--bg_10-color);
+}
+
+
+
+
+
+
+  /* SECTION-06 STRAT  */
+
+  .textimonial_heading h2 {
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+
+  .textimonial_heading p {
+    font-size: 19px;
+  }
+
+
+
+
 
 
   /* SECTION-07 STRAT  */
 
   .sect_07_main_cards {
     grid-template-columns: repeat(1, 1fr);
-    
+
     justify-items: center;
     align-content: center;
+  }
+
+  .sect_07_heading h6 {
+    font-size: 16px;
 }
 
+
+
+  .sect_07_heading h2 {
+    font-size: 28px;
+}
+
+
+
   /* SECTION-08 STARAT  */
-  .attor_heading h3 {
-    font-size: 25px;
-    padding-top: 20px;
-  }
+
+ 
+  .section-08 {
+    padding-top: 45px;
+    min-height: 0px;
+}
+ 
+.attor_heading h6 {
+  font-size: 16px;
+}
+
+  .attor_heading h2 {
+    font-size: 28px;
+}
+
+
 
   /* END  */
 
   /* section-9 STRAT  */
-
-  .sect_07_heading h2 {
-    font-size: 36px;
-
+  .section-09 {
+    min-height: 655px;
+    background-color: var(--bg_9-color);
   }
+
 
   .article_heading h6 {
     font-size: 28px;
   }
 
   .article_main {
-  
-    flex-direction: column;
-  
-    align-items: center;
-   
-}
 
-.article_card img {
-  max-width: 341px;
-}
+    flex-direction: column;
+justify-content: center;
+    align-items: center;
+
+  }
+
+  .article_card img {
+    max-width: 341px;
+  }
 
   .article_card h5 {
     font-size: 15px;
@@ -1990,40 +2220,62 @@ justify-items: center;
 
 
   footer {
- 
-  
+
+
     margin-top: 20px;
-}
+  }
 
 
 
 
   .footer_content {
-    
+
     flex-direction: column;
-   
+
     align-items: center;
-}
+  }
 
 
-.newsletter {
-  padding-left: 0px;
-  padding-bottom: 20px;
-}
+  .newsletter {
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
 
-.lawmate {
-  padding-left: 71px;
-}
- 
+  .lawmate {
+    padding-left: 71px;
+  }
+
 
   .Practice_Area {
     padding-right: 100px;
+  }
+
+  .contact_us {
+    gap: 16px;
+    padding-right: 100px;
+  }
+
+
+
+  .copyright {
+    padding-top: 15px;
+    display: flex;
+   
+    gap: 20px;
+    align-items: center;
+
+
+   
 }
 
-.contact_us {
-  gap: 16px; 
-  padding-right: 100px;
+.copyright p {
+
+  font-size: 14px;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  color: #ffffff87;
 }
+
 
 
 }
