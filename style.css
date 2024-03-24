@@ -15,6 +15,14 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+   
+}
+
+
+
+
 :root {
   --text_1-color: #ffffff;
   --text_2-color: #bbbbbb;
@@ -332,7 +340,7 @@ color: var(--bg_13-color);
   line-height: 1.2857142857142858em;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
-  background-color: var(--border-color);
+  background-color:  #FAFAFA;
   padding-bottom: 20px;
  
 }
@@ -433,7 +441,7 @@ color: var(--bg_13-color);
 }
 
 .about h2 {
-  font-size: 60px;
+  font-size: 56px;
   line-height: 0.8333333333333334em;
   font-family: "Crimson Pro", serif;
   font-weight: 600;
@@ -1272,7 +1280,11 @@ footer {
   color: var(--text_6-color);
 }
 
-
+.Email {
+  padding-right: 20px;
+  gap: 14px;
+  display: flex;
+}
 
 
  
@@ -1874,7 +1886,7 @@ padding-top: 80px;
 
   .section-02 {
  
-    padding-top: 45px;
+    padding-top: 78px;
     
   }
 
