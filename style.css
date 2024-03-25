@@ -1059,14 +1059,15 @@ footer {
 .meadia_icon a {
   color: var(--text_1-color);
   background-color: var(--bg_10-color);
-  background-color: transparent;
+  background-color:var(--bg_7-color);
   padding: 14px 17px 13px 16.63px;
-  border: 1px solid #fff;
+  border: 1px solid transparent;
   border-radius: 50%;
  
 }
 
- 
+
+
 
 .lawmate h5 {
   font-size: 20px;
